@@ -15,6 +15,9 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+@import url('./modal-buy-now.css');
+@import url('./modal-explore.css');
+@import url('./modal-review.css');
 
 :root {
   font-family: Montserrat, sans-serif;
