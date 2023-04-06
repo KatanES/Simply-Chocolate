@@ -1,0 +1,89 @@
+.sellers-title {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 20px;
+line-height: calc(6 / 5);
+letter-spacing: -0.03em;
+text-align: center;
+}
+
+.sellers-title-span {
+color: var(--primary-accent-color);
+}
+
+.sellers-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.sellers-text-one {
+  max-width: 306px;
+}
+
+.sellers-text-two {
+  display: none;
+}
+
+.third-foto {
+  display: none;
+}
+
+.sellers-btn {
+box-sizing: content-box;
+font-family: Montserrat;
+font-weight: 600;
+font-size: 14px;
+line-height: calc(17 / 14);
+letter-spacing: 0em;
+color: #FFFFFF;
+padding: 12px 28px;
+background-color: var(--primary-accent-color);
+border-radius: 100px;
+border: none;
+}
+
+/* --------------------------------------------TABLET---------------- */
+@media screen and (min-width: 768px) {
+
+.sellers-title {
+font-size: 24px;
+line-height: calc(7 / 6);
+}
+
+.sellers-list {
+ flex-direction: row;
+ justify-content: start;
+}    
+
+.sellers-text-one {
+ display: none;
+}
+
+.sellers-text-two {
+  display: unset;
+  max-width: 306px;
+}
+}
+
+
+
+/* ---------------------------------------------DESKTOP------------ */
+@media screen and (min-width: 1200px) {
+
+
+.sellers-text-two {
+  max-width: 407px;
+}
+    
+.third-foto {
+  display: unset;
+}
+
+.sellers-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+}
