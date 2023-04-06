@@ -1,0 +1,139 @@
+
+
+.is-loved-section {
+    font-family: Montserrat, sans-serif;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid tomato;
+}
+
+.is-loved-title {  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FD9222;
+    margin-bottom: 50px;
+}
+
+/* .is-loved-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FD9222;
+} */
+
+.is-loved-text-reviews {
+    display: flex;  
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+}
+
+
+
+.cards-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+}
+
+.card-list-item{
+    width: 356px;
+    height: 120px;
+    display: inline-block; 
+    margin-bottom: 72px;        
+} 
+
+
+.card{
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
+    display: block;
+}
+
+.card-block-text{
+    padding: 32px 0 32px 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden; 
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.cards-name{    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+    color: var(--accent-color-logo-grunt);   
+}
+
+.cards-direction{
+    font-size: 16px;
+    letter-spacing: 0.02em;    
+    line-height: 1.5;
+    color: var(--advantages-ourteam-text);    
+}
+
+
+
+
+/*      mobile      */
+
+@media screen and (max-width: 767px) {
+    /* .container {
+        max-width: 375px;
+        height: 404px;
+    } */
+
+    .is-loved-section {        
+        max-width: 375px;
+        height: 404px; 
+        margin-top: 72px;   
+        margin-bottom: 72px;   
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 734px;
+        height: 463px;
+    } */
+     
+    .is-loved-section {        
+        max-width: 734px;
+        height: 463px;  
+        margin-top: 100px;   
+        margin-bottom: 100px;     
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    /* .container {
+        max-width: 1136px;
+        height: 463px;
+    } */
+
+    .is-loved-section {        
+        max-width: 1136px;
+        height: 463px;   
+        margin-top: 139px;   
+        margin-bottom: 117px;    
+    }
+}
