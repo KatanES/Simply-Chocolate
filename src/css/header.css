@@ -41,14 +41,18 @@
   .header-logo-pic {
     fill: rgba(253, 146, 34, 1);
   }
-  .header-list-item {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
-    color: #111111;
+
+  .header-mobil-menu-button-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -75,6 +79,11 @@
     display: flex;
     align-items: center;
   } */
+
+  .header-mobil-menu-button-open {
+    display: none;
+  }
+
   .header {
     padding-top: 24px;
     padding-bottom: 32px;
