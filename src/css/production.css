@@ -1,0 +1,53 @@
+.production {
+    padding-bottom: 72px;
+    background-color: var(primary-background-color);
+}
+
+.production-container{
+    min-width: 320px;
+    padding:0 20px ;
+    
+}
+
+.production-content{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.production-title {
+    font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     letter-spacing: -0.03em;
+     margin-bottom: 32px;
+     text-transform: uppercase;
+     color: #111111;
+}
+
+.production-title span {
+ color: var(--primary-accent-color);
+}
+
+.production-video {
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.production-pre-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+    
+    
+}
+
+.production-list {}
+
+.production-item {}
