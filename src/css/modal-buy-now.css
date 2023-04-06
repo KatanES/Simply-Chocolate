@@ -1,0 +1,16 @@
+.order-backdrop {
+  padding: 32px 24px;
+}
+
+.order-form-title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  text-align: center;
+}
+
+.order-form-title span {
+  color: var(--primary-accent-color);
+}
