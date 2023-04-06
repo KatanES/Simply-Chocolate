@@ -1,17 +1,12 @@
 .production {
     padding-bottom: 72px;
-    background-color: var(primary-background-color);
+    background-color: #E2E2E2;
 }
 
 .production-container{
     min-width: 320px;
     padding:0 20px ;
     
-}
-
-.production-content{
-    background-color: #fff;
-    border-radius: 15px;
 }
 
 .production-title {
@@ -36,6 +31,12 @@
     border-radius: 15px;
 }
 
+.production-content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 14px;
+}
+
 .production-pre-title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -48,6 +49,25 @@
     
 }
 
+ li::before {
+    content: "\a0\a0\a0";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4C4C4C;
+    margin: 5px 8px 0px 0px;
+
+}
 .production-list {}
 
-.production-item {}
+.production-item {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        margin-bottom: 18px;
+        display: flex;
+        color: var(--primary-text-color);
+}
