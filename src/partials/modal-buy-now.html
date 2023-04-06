@@ -1,0 +1,130 @@
+<div class="order-backdrop is-hidden" data-modal>
+  <div class="order-modal">
+    <!-- <button type="button" class="modal-close" data-modal-close>
+        <span>
+          <svg class="btn-icon" width="8px" height="8px">
+            <use href="./images/symbol-defs.svg#icon-close-modal"></use>
+          </svg>
+        </span>
+      </button> -->
+    <h2 class="order-form-title"><span>BUY</span> NOW</h2>
+    <ul class="list">
+      <li class="order-modal-item">
+        <img
+          src="../img/order-modal-imgs/chocolate-bar-1x.jpg"
+          alt="chocolate-bar"
+          width="120px"
+          height="107px"
+        /><span>100g</span>
+      </li>
+      <li class="order-modal-item">
+        <img
+          src="../img/order-modal-imgs/mixed-chocolate-1x.jpg"
+          alt="mixed-chocolate"
+          width="120px"
+          height="107px"
+        /><span>200g</span>
+      </li>
+      <li class="order-modal-item">
+        <img
+          src="../img/order-modal-imgs/dark-chocolate-bar-1x.jpg"
+          alt="dark-chocolate"
+          width="120px"
+          height="107px"
+        /><span>300g</span>
+      </li>
+    </ul>
+    <form class="order-modal-form">
+      <div class="order-form-group">
+        <label for="username" class="order-form-username order-form-label list">
+          <span>Personal information</span>
+        </label>
+        <div class="order-form-control">
+          <input
+            id="username"
+            type="text"
+            name="username"
+            class="order-form-input"
+            placeholder="Name"
+            required
+          />
+          <input
+            id="surname"
+            type="text"
+            name="surname"
+            class="order-form-input"
+            placeholder="Surname"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="order-form-group">
+        <label for="email" class="order-email form-label list">
+          <span>Email</span>
+        </label>
+        <div class="order-form-control">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            class="order-form-input"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="order-form-group">
+        <label for="phone" class="order-phone order-form-label list">
+          <span>Phone number</span>
+        </label>
+        <div class="order-form-control">
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            class="order-form-input"
+            pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"
+            placeholder="Phone number"
+          />
+          <!-- <svg class="form-icon" width="18px" height="18px">
+              <use href="./images/symbol-defs.svg#icon-phone">+380</use>
+            </svg> -->
+        </div>
+      </div>
+
+      <div class="order-form-group">
+        <label for="card" class="order-card order-form-label list">
+          <span>Card number</span>
+        </label>
+        <div class="order-form-control">
+          <input
+            id="card"
+            type="number"
+            name="card"
+            class="order-form-input"
+            placeholder="Enter card"
+          />
+          <!-- <svg class="form-icon" width="18px" height="18px">
+              <use href="./images/symbol-defs.svg#icon-phone">+380</use>
+            </svg> -->
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comment" class="textarea-comment form-label list">
+          <span>Comment</span>
+        </label>
+        <textarea
+          name="comment"
+          rows="5"
+          placeholder="Enter text"
+          class="form-textarea"
+          id="comment"
+        ></textarea>
+      </div>
+      <button type="submit" class="form-btn standard-button">Submit</button>
+    </form>
+  </div>
+</div>
