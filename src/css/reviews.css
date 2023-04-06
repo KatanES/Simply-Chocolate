@@ -1,0 +1,34 @@
+ /* для икон */
+
+ .bllock{
+    display: flex;
+    margin: 40px auto;
+    width: 500px;
+    /* height: 400px; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+.link{
+    
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    transition: var(--semofor-button-grunt);
+}
+
+.link:hover,
+.link:focus{
+    background-color: tomato;
+}
+
+.icon{
+    /* width: 18px;
+    height: 18px; */
+    width: 100px;
+    height: 100px;
+    fill: currentColor;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
