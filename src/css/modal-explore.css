@@ -17,7 +17,7 @@
   top: 5px;
   left: 50%;
   transform: translateX(-50%);
-  background: #fafafa;
+  background-color: #fafafa;
   border-radius: 15px;
   padding: 201px 24px 32px;
   background-image: url(../img/modal-explore-img/modal-explore-mobile-img.jpg);
@@ -126,13 +126,19 @@
       background-image: url(../img/modal-explore-img/modal-explore-img@2x.jpg);
     }
   }
+  .modal-explore-form-container {
+    display: flex;
+    column-gap: 8px;
+  }
   .modal-explore-text {
     font-size: 24px;
     margin-bottom: 28px;
   }
+  .modal-explore-form {
+    width: 313px;
+  }
   .modal-explore-form-input {
     height: 52px;
-    padding: 15px 24px;
   }
   .modal-explore-form-input::placeholder {
     font-size: 18px;
