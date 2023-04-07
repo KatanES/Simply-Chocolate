@@ -1,4 +1,7 @@
-
+.container {
+    /* width: 100%;
+    height: 100%; */
+}
 
 .is-loved-section {
     font-family: Montserrat, sans-serif;
@@ -38,8 +41,6 @@
         gap: 64px 24px;
         justify-content: center;
 }
-
-
 
 .cards-block{
     display: flex;
@@ -137,3 +138,63 @@
         margin-bottom: 117px;    
     }
 }
+
+/*           slider          */
+
+.wrapper{
+    /* padding: 30px; */
+    min-height: 85%;
+}
+
+.card-set {
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* задає висоту */
+.image-slider {
+    padding: 0 0 0 0;
+} 
+
+.image-slider .swiper-button-next::after,.swiper-button-prev::after {
+    font-size: 50px;
+    color: beige;
+} 
+
+.image-slider .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: beige;
+}  
+
+
+.image-slider-wrapper{
+
+}
+
+.image-slider-slide{
+
+} 
+
+.swiper-slide{
+
+}
+
+.image-slider-image{
+    text-align: center;
+}
+
+.image-slider-image  {
+    max-width: 100%;
+}
+
+.position {
+    margin: auto; 
+    height: 242px;
+    width: 360px;
+ }
