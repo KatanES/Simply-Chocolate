@@ -1,16 +1,3 @@
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* ------Mobile------- */
 
 @media screen and (min-width: 375px) {
@@ -28,10 +15,7 @@
     padding-top: 20px;
     padding-bottom: 14px;
   }
-  /* .header-body {
-    display: flex;
-    align-items: center;
-  } */
+
   .header-logo {
     display: flex;
     align-items: center;
@@ -70,16 +54,15 @@
 
   .header-mobile-menu {
     position: fixed;
-    display: flex;
-    width: 300px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
     top: 0;
-    left: 0;
+    left: 100px;
     background-color: #111111;
-    z-index: 100;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    z-index: 1000;
+    /* opacity: 0;
+    visibility: hidden; */
+    /* pointer-events: none; */
   }
 
   /* .header-mobile.is-open {
@@ -88,40 +71,54 @@
     pointer-events: auto;
   } */
 
-  /* .header-container-mobile-menu {
+  .header-container-mobile-menu {
     position: relative;
-    padding-left: 40px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-top: 136px;
+    padding-right: 46px;
     display: flex;
     flex-direction: column;
-  } */
+  }
 
-  /* .header-mobile-menu-close-bth {
+  .header-mobile-menu-close-bth {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    width: 24px;
-    height: 24px;
+    background-color: #111111;
+    width: 28px;
+    height: 28px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     position: absolute;
-    top: 24px;
-    right: 24px;
-  } */
+    top: 20px;
+    right: 20px;
+    fill: aliceblue;
+  }
 
-  /* .header-mobil-menu-list {
+  .header-mobil-menu-list {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 18px;
     align-items: flex-start;
-  } */
+  }
+
+  .header-list-item-mobile-menu {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    letter-spacing: -0.02em;
+  }
+
+  .header-mobile-menu-socials-pic {
+    fill: rgba(255, 255, 255, 1);
+  }
 }
 
 /* ------Tablet------- */
@@ -147,10 +144,6 @@
   .header-mobile-menu {
     display: none;
   }
-  /* .header-body {
-    display: flex;
-    align-items: center;
-  } */
 
   .header-mobil-menu-button-open {
     display: none;
