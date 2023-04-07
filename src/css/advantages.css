@@ -38,12 +38,12 @@
 
 
 @media screen and (min-width:375px) {
-    .conteiner{
+    .advantages-container{
       max-width:375px;
     }
   }
   @media screen and (min-width:768px) {
-    .conteiner{
+    .advantages-container{
       max-width: 768px;
       padding: 0 32px;
     }
@@ -61,7 +61,7 @@
     }
   }
   @media screen and (min-width:1200px) {
-    .conteiner{
+    .advantages-container{
       max-width: 1200px;
     
         width: 100%;
