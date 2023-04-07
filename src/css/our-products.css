@@ -2,6 +2,7 @@
   .container {
     max-width: 375px;
   }
+
   .our-products {
     margin: 0 auto;
     padding-top: 72px;
@@ -95,6 +96,10 @@
     flex-wrap: wrap;
     gap: 18px;
   }
+  .our-products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .our-products-list {
     width: 270px;
     margin: 0 auto;
@@ -103,5 +108,9 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1166px;
+  }
+  .our-products {
+    padding-top: 128px;
+    padding-bottom: 128px;
   }
 }
