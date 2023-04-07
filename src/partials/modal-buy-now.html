@@ -1,13 +1,13 @@
-<div class="order-backdrop is-hidden" data-modal>
+<!-- <div class="order-backdrop is-hidden" data-modal>
   <div class="order-modal">
-    <!-- <button type="button" class="modal-close" data-modal-close>
-        <span>
-          <svg class="btn-icon" width="8px" height="8px">
-            <use href="./images/symbol-defs.svg#icon-close-modal"></use>
-          </svg>
-        </span>
-      </button> -->
+    <button class="btn-order-modal-close" type="button">
+      <svg class="btn-order-modal-close-icon" width="12" height="12">
+        <use href="../img/icons.svg#i-close-button"></use>
+      </svg>
+    </button>
+
     <h2 class="order-form-title"><span>BUY</span> NOW</h2>
+
     <ul class="list">
       <li class="order-modal-item">
         <img
@@ -39,6 +39,8 @@
         <label for="username" class="order-form-username order-form-label list">
           <span>Personal information</span>
         </label>
+        <label for="surname" class="order-form-surname order-form-label list">
+        </label>
         <div class="order-form-control">
           <input
             id="username"
@@ -47,6 +49,7 @@
             class="order-form-input"
             placeholder="Name"
             required
+            maxlength="29"
           />
           <input
             id="surname"
@@ -55,6 +58,7 @@
             class="order-form-input"
             placeholder="Surname"
             required
+            maxlength="29"
           />
         </div>
       </div>
@@ -66,11 +70,13 @@
         <div class="order-form-control">
           <input
             id="email"
-            type="email"
+            type="text"
             name="email"
             class="order-form-input"
             placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
             required
+            maxlength="29"
           />
         </div>
       </div>
@@ -87,10 +93,15 @@
             class="order-form-input"
             pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"
             placeholder="Phone number"
+            required
+            maxlength="9"
           />
-          <!-- <svg class="form-icon" width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-phone">+380</use>
-            </svg> -->
+          <span class="modal-order-icon-position">
+            <svg class="modal-order-tel-icon" width="24" height="18">
+              <use href="../img/icons.svg#i-flag"></use>
+            </svg>
+            +380
+          </span>
         </div>
       </div>
 
@@ -106,25 +117,30 @@
             class="order-form-input"
             placeholder="Enter card"
           />
-          <!-- <svg class="form-icon" width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-phone">+380</use>
-            </svg> -->
+          <svg class="form-icon" width="18px" height="18px">
+            <use href="./images/symbol-defs.svg#icon-phone">+380</use>
+          </svg>
         </div>
       </div>
 
-      <div class="form-group">
-        <label for="comment" class="textarea-comment form-label list">
+      <div class="order-form-group">
+        <label
+          for="order-comment"
+          class="order-textarea-comment order-form-label list"
+        >
           <span>Comment</span>
         </label>
         <textarea
           name="comment"
           rows="5"
           placeholder="Enter text"
-          class="form-textarea"
-          id="comment"
+          class="order-form-textarea order-modal-input"
+          id="order-comment"
         ></textarea>
       </div>
-      <button type="submit" class="form-btn standard-button">Submit</button>
+      <button type="submit" class="order-form-btn modal-order-submit-btn">
+        Submit
+      </button>
     </form>
   </div>
-</div>
+</div> -->

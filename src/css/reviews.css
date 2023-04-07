@@ -1,0 +1,243 @@
+.container {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.is-loved-section {
+    font-family: Montserrat, sans-serif;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid tomato;
+}
+
+.is-loved-title {  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FD9222;
+    margin-bottom: 50px;
+}
+
+/* .is-loved-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FD9222;
+} */
+
+.is-loved-text-reviews {
+    display: flex;  
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+}
+
+.cards-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+}
+
+.card-list-item{
+    max-width: 360px;
+    height: 242px;
+    display: inline-block; 
+    margin-bottom: 32px;  
+    background-color: #fff;      
+} 
+
+.cards-name{    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111111;   
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.cards-direction{
+    margin: 0 auto;
+    max-width: 312px;
+    height: 72px;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;    
+    color: rgba(17, 17, 17, 0.7);   
+}
+
+
+/* .card{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    display: block;
+}
+
+.card-block-text{
+    padding: 32px 0 32px 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden; 
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+} */
+
+
+
+.is-loved-block {
+    margin: 0 auto;
+}
+
+.is-loved-button{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.23;
+    color: #111111;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #FD9222;
+    cursor: pointer;
+    transition: var(--semofor-button-grunt);
+    padding: 14px 40px;
+    
+}
+
+.is-loved-button:hover,
+.is-loved-button:focus{
+    background-color: green;
+    color: floralwhite;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-color: tomato;
+}
+
+
+
+
+/*      mobile      */
+
+@media screen and (max-width: 767px) {
+    /* .container {
+        max-width: 375px;
+        height: 404px;
+    } */
+
+    .is-loved-section {        
+        max-width: 375px;
+        height: 404px; 
+        margin-top: 72px;   
+        margin-bottom: 72px;   
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 734px;
+        height: 463px;
+    } */
+     
+    .is-loved-section {        
+        max-width: 734px;
+        height: 463px;  
+        margin-top: 100px;   
+        margin-bottom: 100px;     
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    /* .container {
+        max-width: 1136px;
+        height: 463px;
+    } */
+
+    .is-loved-section {        
+        max-width: 1136px;
+        height: 463px;   
+        margin-top: 139px;   
+        margin-bottom: 117px;    
+    }
+}
+
+/*           slider          */
+
+.wrapper{
+    /* padding: 30px; */
+    min-height: 85%;
+}
+
+.card-set {
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* задає висоту */
+.image-slider {
+    padding: 0 0 0 0;
+} 
+
+.image-slider .swiper-button-next::after,.swiper-button-prev::after {
+    font-size: 50px;
+    color: #FD9222;
+} 
+
+.image-slider .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #FD9222;
+}  
+
+
+/* .image-slider .swiper-pagination-bullet:hover{
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+}   */
+
+
+.image-slider-wrapper{
+
+}
+
+.image-slider-slide{
+
+} 
+
+.swiper-slide{
+
+}
+
+.image-slider-image{
+    text-align: center;
+}
+
+.image-slider-image  {
+    max-width: 100%;
+}
+
+.position {
+    margin: auto; 
+    height: 242px;
+    width: 360px;
+ }
