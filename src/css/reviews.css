@@ -73,14 +73,14 @@
 
 .cards-direction{
     margin: 0 auto;
-    max-width: 312px;
+    /* max-width: 312px; */
     height: 72px;
     font-size: 14px;
     line-height: 1.29;
     text-align: center;
     letter-spacing: -0.02em;    
     color: rgba(17, 17, 17, 0.7); 
-     
+    padding: 0 18px;
 }
 
 
@@ -100,15 +100,14 @@
 } */
 
 
-.is-loved-line {
+/* .is-loved-line {
     width: 28px;
     height: 13px;
     background-color: #FD9222;
     border-radius: 13px;
-    position: absolute;
-    
+    position: absolute;    
     left: 490px;    
-}
+} */
 
 .is-loved-block {
     margin: 0 auto;
@@ -119,7 +118,7 @@
     font-weight: 600;
     line-height: 1.23;
     color: #111111;
-    background-color: #fff;
+    background-color: #e2e2e2;
     border: 1px solid #FD9222;
     cursor: pointer;
     transition: var(--semofor-button-grunt);    
@@ -171,8 +170,15 @@
     line-height: 20px;
     font-size: 14px;
     background-color: #FD9222;
-    
+    opacity: 0.65;
 }  
+
+.image-slider .swiper-pagination-bullet-active {
+    opacity: 2;
+    background:  #FD9222;
+    width: 28px;
+    border-radius: 8px;
+}
 
 
 
@@ -220,8 +226,13 @@
     .card-list-item{
         max-width: 335px;
         height: 202px;
-        margin-bottom: 20px;             
+        margin-bottom: 20px;   
+                  
     } 
+
+    .cards-direction{
+        padding: 0 18px;
+    }
 
     .is-loved-section {        
         max-width: 375px;
@@ -236,10 +247,10 @@
         margin-bottom: 32px;
     }
 
-    .is-loved-line {
+    /* .is-loved-line {
         left: 90px;  
         bottom: 72px;  
-    }
+    } */
 
     .is-loved-button{
         font-size: 14px;              
@@ -259,6 +270,10 @@
         margin-bottom: 32px;             
     } 
 
+    .cards-direction{
+        padding: 0 24px;
+    }
+
     .is-loved-section {        
         max-width: 704px;
         height: 463px;  
@@ -272,10 +287,10 @@
         margin-bottom: 50px;
     }
 
-    .is-loved-line {
+    /* .is-loved-line {
         left: 275px;
         bottom: 75px;    
-    }
+    } */
 
     .is-loved-button{
         font-size: 18px;              
@@ -296,6 +311,10 @@
         margin-bottom: 32px;             
     } 
 
+    .cards-direction{
+        padding: 0 16px;
+    }
+
     .is-loved-section {        
         max-width: 1136px;
         height: 463px;   
@@ -309,10 +328,10 @@
         margin-bottom: 50px;
     }
 
-    .is-loved-line {
+    /* .is-loved-line {
         left: 490px;
         bottom: 75px;    
-    }
+    } */
 
     .is-loved-button{
         font-size: 18px;              
