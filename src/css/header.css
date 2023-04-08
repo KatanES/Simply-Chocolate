@@ -4,137 +4,147 @@
   .container {
     max-width: 375px;
   }
-  .header-list {
-    display: none;
-  }
+}
 
-  .header-socials-list {
-    display: none;
-  }
-  .header {
-    padding-top: 20px;
-    padding-bottom: 14px;
-  }
+.header-list {
+  display: none;
+}
 
-  .header-logo {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
+.header-socials-list {
+  display: none;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
 
-  .header-logo-text {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.03em;
-    color: #111111;
-  }
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 
-  .header-logo-text span {
-    font-style: italic;
-  }
+.header-logo-text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
 
-  .header-logo-pic {
-    fill: rgba(253, 146, 34, 1);
-  }
+.header-logo-text span {
+  font-style: italic;
+}
 
-  .header-mobil-menu-button-open {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-  }
+.header-logo-pic {
+  fill: rgba(253, 146, 34, 1);
+}
 
-  .header-body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.header-mobil-menu-button-open {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
 
-  .header-mobile-menu {
-    position: fixed;
-    width: 220px;
-    height: 100%;
-    top: 0;
-    right: 0;
-    background-color: #111111;
-    z-index: 1000;
-    /* transform: translate(100px, 200px); */
-    /* opacity: 0;
-    visibility: hidden; */
-    /* pointer-events: none; */
-  }
+.header-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  /* .header-mobile.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  } */
+.header-mobile-menu {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #111111;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
-  .header-container-mobile-menu {
-    position: relative;
-    padding-left: 50px;
-    padding-top: 136px;
-    padding-right: 46px;
-    display: flex;
-    flex-direction: column;
-  }
+.header-mobile.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 
-  .header-mobile-menu-close-bth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #111111;
-    width: 28px;
-    height: 28px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    fill: aliceblue;
-  }
+.header-container-mobile-menu {
+  position: relative;
+  padding-left: 50px;
+  padding-top: 136px;
+  padding-right: 46px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .header-mobil-menu-list {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: flex-start;
-  }
+.header-mobile-menu-close-bth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: aliceblue;
+}
 
-  .header-list-item-mobile-menu {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-  }
+.header-mobil-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+}
 
-  .header-mobile-menu-socials-pic {
-    fill: rgba(255, 255, 255, 1);
-  }
+.header-list-item-mobile-menu {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
 
-  .header-mobil-menu-social {
-    display: flex;
-    margin-left: 20px;
-    position: relative;
-    top: 200px;
-    bottom: 0;
-  }
+.header-mobile-menu-socials-pic {
+  fill: rgba(255, 255, 255, 1);
+}
 
-  .header-mobil-menu-list-social {
-    display: flex;
-    gap: 18px;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
+.header-mobil-menu-social {
+  display: flex;
+  margin-left: 20px;
+  position: relative;
+  top: 242px;
+  bottom: 0;
+}
+
+.header-mobil-menu-list-social {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-logo-pic {
+  width: 21px;
+  height: 21px;
+}
+
+.header-mobile-menu-socials-pic {
+  width: 22px;
+  height: 22px;
 }
 
 /* ------Tablet------- */
@@ -158,20 +168,11 @@
     color: #fd9222;
   }
 
-  .header-mobile-menu-socials-pic:hover,
-  .header-mobile-menu-socials-pic:focus {
+  .header-mobil-menu-socials-link:focus,
+  .header-mobil-menu-socials-link:hover {
     fill: #fd9222;
   }
 
-  .header-list-item:hover,
-  .header-list-item:focus {
-    color: #fd9222;
-  }
-
-  .header-socials-link:focus,
-  .header-socials-link:hover {
-    fill: #fd9222;
-  }
   .header-list-link {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -190,6 +191,10 @@
   .header-socials-link {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-mobile-menu-socials-pic {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -265,5 +270,19 @@
     line-height: 1.14;
     letter-spacing: -0.02em;
     color: #111111;
+  }
+
+  .header-logo-pic {
+    width: 24px;
+    height: 24px;
+  }
+  .header-socials-pic {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-socials-link:focus,
+  .header-socials-link:hover {
+    fill: #fd9222;
   }
 }
