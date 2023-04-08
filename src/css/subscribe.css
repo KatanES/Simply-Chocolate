@@ -1,97 +1,107 @@
 :root {
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-  
-    --primary-text-color: #111111;
-    --primary-background-color: #e2e2e2;
-    --2nd-background-color: #1e1823;
-    --primary-accent-color: #fd9222;
-  --primary-white-color: #ffffff;
-    color: #111111;
-    background-color: #e2e2e2;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
-  }
-  p{
-    margin: 0;
-    padding: 0;
-  }
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 
-  .no-scroll {
-    overflow: hidden;
-  }
+  --primary-text-color: #111111;
+  --primary-background-color: #e2e2e2;
+  --two-background-color: #1e1823;
+  --primary-accent-color: #fd9222;
+--primary-white-color: #ffffff;
+  color: #111111;
+  background-color: #e2e2e2;
 
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  ul{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
-  li{
-    list-style: none;
-  }
-  
-  /* ============Subscribe ==============*/
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
 
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
 
-  .subscribe-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 356px;
-  }
+.no-scroll {
+  overflow: hidden;
+}
 
-  .subscribe-explore{
-    font-family: 'Montserrat';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 24px;
-    font-weight: 600;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/* ============Subscribe ==============*/
+
+.subscribe-explore{
+  font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: -0.03em;
 text-transform: uppercase;
 
 color: var(--primary-white-color);
-  }
+}
 
-  .subscribe-text{
-    font-family: 'Montserrat';
-    margin-bottom: 24px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 356px;
+}
+
+.subscribe-explore{
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+
+color: var(--primary-white-color);
+}
+
+.subscribe-text{
+  font-family: 'Montserrat';
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 letter-spacing: -0.02em;
 
 color: var(--primary-white-color);
-  }
+}
 
 .subscribe-btn{
-  font-family: 'Montserrat';
-  margin-left: auto;
-  margin-right: auto;
-    width: 128px;
-    height: 41px;
-    background-color: var(--primary-accent-color);
-    border-radius: 100px;
+font-family: 'Montserrat';
+margin-left: auto;
+margin-right: auto;
+  width: 128px;
+  height: 41px;
+  background-color: var(--primary-accent-color);
+  border-radius: 100px;
 border: none;
 cursor: pointer;
 font-weight: 600;
@@ -102,84 +112,79 @@ color: var(--primary-white-color);}
 
 
 .subscribe-section {
-  padding-top: 62px;
-  padding-bottom: 63px;
-  background-color: #2e2f42;
-  max-width: 100%;
-  max-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Subscribe.img/Subsribe-mobil.jpg"); 
+padding-top: 62px;
+padding-bottom: 63px;
+background-color: #2e2f42;
+max-width: 100%;
+max-height: 100%;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Subscribe.img/Subcribe-mobil.jpg"); }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-
-  .subscribe-section {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-     url("../img/Subscribe.img/Subscribe-mobile-2x.jpg");
-  }
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.subscribe-section {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+   url("../img/Subscribe.img/Subcribe-mobile-2x.jpg");
 }}
-
-
-/* --------------Modal mobile */
 
 
 
 .backdrop {
-  position: relative;
-  transition: opacity var(--taming-duration) var(--taming-cubic);
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+position: relative;
+transition: opacity var(--taming-duration) var(--taming-cubic);
+opacity: 1;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 
 }
 
 .backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.3);
+transform: translate(-50%, -50%) scale(1.3);
 }
 
 .subscribe-modal{
-  padding-bottom: 32px;
-  background-color: #FAFAFA;
-  position: fixed;
-  border-radius: 20px;
-  width: 100%;
-  max-width: 311px;
-  height: 350px;
-  transform: translate(-50%, -50%) scale(1);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+padding-bottom: 32px;
+background-color: #FAFAFA;
+position: fixed;
+border-radius: 20px;
+width: 100%;
+max-width: 311px;
+height: 350px;
+transform: translate(-50%, -50%) scale(1);
+position: absolute;
+top: 50%;
+left: 50%;
 }
 
 .subscribe-container-modal{
-  position: relative;
-  display: flex;
-  max-width: 375px;
-  width: 100%;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow-y: auto;
-  margin: auto;
+position: relative;
+display: flex;
+max-width: 375px;
+width: 100%;
+flex-direction: column;
+justify-content: flex-end;
+overflow-y: auto;
+margin: auto;
 
 }
 .subscribe-photo-modal{
-  max-width: 375px;
-  background-color: var(--primary-header);
-  margin-bottom: 32px;
+max-width: 375px;
+background-color: var(--primary-header);
+margin-bottom: 32px;
 }
 
 .subscribe-list{
@@ -189,17 +194,17 @@ margin-right: auto;
 
 
 .subscribe-vector{
-  position: absolute;
-  top: 21px;
-  right: 20px;
-  width: 14px;
-  height: 14px;
-  fill: #ffffff;
+position: absolute;
+top: 21px;
+right: 20px;
+width: 14px;
+height: 14px;
+fill: #ffffff;
 }
 
 .subscribe-modal-text{
-  font-family: 'Montserrat';
-  font-weight: 600;
+font-family: 'Montserrat';
+font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: -0.03em;
@@ -208,17 +213,16 @@ color: #111111;
 margin-bottom: 24px;}
 
 .subscribe-new-color{
-  color: #FD9222;
+color: #FD9222;
 }
 
 .subscribe-input{
-  font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
 letter-spacing: -0.02em;
-
-color: rgba(64, 64, 64, 0.3), rgba(64, 64, 64, 0.3);
+color: rgba(64, 64, 64, 0.3);
 
 }
 
@@ -228,107 +232,116 @@ color: rgba(64, 64, 64, 0.3), rgba(64, 64, 64, 0.3);
 /* =====================TABLET =======================================*/
 @media screen and (min-width: 375px) and (max-width: 767px)   {
 
-  .subscribe-section{
-    padding-top: 72px;
-    padding-bottom: 72px;
-    max-width: 100%;
-  max-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url("../img/Subscribe.img/Subscribe-tablet.jpg");
+.subscribe-section{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  max-width: 100%;
+max-height: 100%;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url("../img/Subscribe.img/Subcribe-tablet.jpg");}
 
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
 
-  .subscribe-section {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), 
-    rgba(0, 0, 0, 0.2)), 
-     url(../img/Subscribe.img/Subscribe-tablet-2x.jpg);}}}
+.subscribe-section {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), 
+  rgba(0, 0, 0, 0.2)), 
+   url(../img/Subscribe.img/Subcribe-tablet2x.jpg);} }
 
-  .subscribe-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 497px;
-  }
-  .subscribe-explore{
-    font-weight: 600;
+
+.subscribe-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 497px;
+}
+.subscribe-explore{
+  font-weight: 600;
 font-size: 24px;
 line-height: 28px;}
 
-  .subscribe-text{
-    font-weight: 400;
+.subscribe-text{
+  font-weight: 400;
 font-size: 14px;
 line-height: 18px;
-  }
+}
 
-  .subscribe-btn{
-    font-weight: 600;
+.subscribe-btn{
+  font-weight: 600;
 font-size: 18px;
 line-height: 22px;
-    width: 172px;
-    height: 50px;
-  }
+  width: 172px;
+  height: 50px;
+}
 
-  .subscribe-btn:hover, 
-  .subscribe-btn:focus{
-    color:  #FD9222;
-    background-color: #FCF1E0;}}
+.subscribe-btn:hover, 
+.subscribe-btn:focus{
+  color:  #FD9222;
+  background-color: #FCF1E0;}
+}
 
 /* =================desktop =====================================*/
 
-@media  screen and (min-width: 768px)  {
+@media  screen and (min-width: 768px){
 
-  .subscribe-section{
-    padding-top: 72px;
-    padding-bottom: 72px;
-    max-width: 1200px;
-    width: 100%;
-  max-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url("../img/Subscribe.img/Subsribe-desktop.jpg");}
+.subscribe-section{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  max-width: 1200px;
+  width: 100%;
+max-height: 100%;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url("../img/Subscribe.img/Subcribe-desktop.jpg");}
 
-  .subscribe-container{
-    max-width: 497px;
-  }
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
 
-  .subscribe-explore{
-    font-weight: 600;
-font-size: 24px;
-line-height: 28px;
-  }
+.subscribe-section {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), 
+  rgba(0, 0, 0, 0.2)), 
+   url(../img/Subscribe.img/Subcribe-desktop2x.jpg);} }
 
-  .subscribe-text{
-    font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-  }
-
-  
-  .subscribe-btn{
-    font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-    width: 172px;
-    height: 50px;
-  }
-
-  .subscribe-btn:hover, 
-  .subscribe-btn:focus{
-    color:  #FD9222;
-    background-color: #FCF1E0;
-  }
+.subscribe-container{
+  max-width: 497px;
 }
 
-/* ---------------------MODAL SUBSCRIBE */
+.subscribe-explore{
+  font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+}
 
+.subscribe-text{
+  font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+
+
+.subscribe-btn{
+  font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+  width: 172px;
+  height: 50px;
+}
+
+.subscribe-btn:hover, 
+.subscribe-btn:focus{
+  color:  #FD9222;
+  background-color: #FCF1E0;
+}
+
+}
