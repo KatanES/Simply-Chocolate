@@ -3,14 +3,21 @@
   .container {
     max-width: 375px;
   }
-
   .our-products {
     margin: 0 auto;
-    padding-top: 72px;
     padding-bottom: 72px;
   }
-  .our-products-list {
+  /* .our-products-list {
     width: 335px;
+    height: 364px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 32px 0 32px;
+    margin: 0 auto;
+  } */
+  .slider-item {
+    max-width: 335px;
     height: 364px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -26,15 +33,17 @@
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+    margin-top: 0;
     margin-bottom: 32px;
   }
   .our-products-title span {
-    color: #fd9222;
+    color: var(--primary-accent-color);
   }
 
   .our-products-img {
     width: 230px;
     height: 200px;
+    object-fit: cover;
     margin: 0 auto;
   }
   .our-products-subtitle {
@@ -73,6 +82,9 @@
     align-items: center;
     margin: 0 auto;
   }
+  .slider-pagination {
+    margin-top: 20px;
+  }
 }
 /* --------------tablet-------------- */
 @media screen and (min-width: 768px) {
@@ -82,15 +94,16 @@
   .our-products-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
   }
   .our-products {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
-  .our-products-list {
-    width: 270px;
+  .slider-item {
+    max-width: 270px;
     margin: 0 auto;
+  }
+  .slider-pagination {
+    margin-top: 32px;
   }
 }
 /* ------------desktop---------------- */
@@ -99,11 +112,48 @@
     max-width: 1166px;
   }
   .our-products {
-    padding-top: 128px;
     padding-bottom: 128px;
+  }
+  .slider-pagination {
+    margin-top: 32px;
   }
 }
 
+/*--------------slider------------ */
+
+@import 'swiper/css/bundle';
+
+/* .slider-container {
+  width: 886px;
+} */
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.slider-pagination .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: #939eac;
+  opacity: 1;
+}
+
+.slider-pagination .swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  border-radius: 50px;
+  background-color: var(--primary-accent-color);
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0;
+}
+
+/* ---------------media----------- */
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
