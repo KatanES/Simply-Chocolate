@@ -29,7 +29,7 @@
   margin: 8px auto;
 }
 .order-modal-item:last-child {
-  margin: 32px auto;
+  margin-bottom: 32px;
 }
 
 .order-box {
@@ -77,7 +77,7 @@
 
 .order-form-control {
   display: flex;
-  gap: 21px;
+  /* gap: 21px; */
 }
 
 .btn-order-modal-close {
@@ -120,6 +120,20 @@
 
 .order-form-title span {
   color: var(--primary-accent-color);
+}
+
+.order-contacts-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.order-form-label span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
 }
 
 .order-form-input {
