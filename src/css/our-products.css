@@ -1,3 +1,4 @@
+/* ---------------mobail------------ */
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
@@ -17,20 +18,7 @@
     padding: 32px 0 32px;
     margin: 0 auto;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .our-products-img {
-      background-image: url(../img/our-products/our-1-2x.jpg),
-        url(../img/our-products/our-2-2x.jpg),
-        url(../img/our-products/our-3-2x.jpg),
-        url(../img/our-products/our-4-2x.jpg),
-        url(../img/our-products/our-5-2x.jpg),
-        url(../img/our-products/our-6-2x.jpg),
-        url(../img/our-products/our-7-2x.jpg),
-        url(../img/our-products/our-8-2x.jpg);
-    }
-  }
+
   .our-products-title {
     font-weight: 600;
     font-size: 20px;
@@ -86,7 +74,7 @@
     margin: 0 auto;
   }
 }
-
+/* --------------tablet-------------- */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 734px;
@@ -105,6 +93,7 @@
     margin: 0 auto;
   }
 }
+/* ------------desktop---------------- */
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1166px;
@@ -112,5 +101,20 @@
   .our-products {
     padding-top: 128px;
     padding-bottom: 128px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .our-products-img {
+    background-image: url(../img/our-products/our-1-2x.jpg),
+      url(../img/our-products/our-2-2x.jpg),
+      url(../img/our-products/our-3-2x.jpg),
+      url(../img/our-products/our-4-2x.jpg),
+      url(../img/our-products/our-5-2x.jpg),
+      url(../img/our-products/our-6-2x.jpg),
+      url(../img/our-products/our-7-2x.jpg),
+      url(../img/our-products/our-8-2x.jpg);
   }
 }
