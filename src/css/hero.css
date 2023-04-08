@@ -66,6 +66,7 @@ div {
   margin-right: 0;
   cursor: pointer;
   border-radius: 100px;
+  border-color: transparent;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: inherit;
@@ -93,7 +94,7 @@ div {
 
 .hero-him-btn {
   background-color: transparent;
-  outline: 1px solid #ffffff;
+  border: 1px solid #ffffff;
   min-width: 159px;
   height: 41px;
   margin-top: 32px;
@@ -138,9 +139,11 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
+  border-color: transparent;
 }
 .hero-scroll {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   stroke: var(--primary-accent-color);
   margin-top: 32px;
   margin-bottom: 27px;
@@ -181,6 +184,7 @@ div {
   .hero-container {
     width: 100%;
     padding: auto 40px 40px 40px;
+    margin: 0;
   }
   .hero-btn {
     margin-bottom: 40px;
@@ -231,7 +235,7 @@ div {
       ),
       url(../img/hero/hero-desktop-1x.jpg);
 
-    width: 1136px;
+    min-width: 100%;
   }
 
   .hero-container {
