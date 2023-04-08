@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subscribe</title>
+    <link rel="stylesheet" href="../css/subscribe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="../js/subscribe.js">
   </head>
   <body>
     <main>
-      <section class="subscribe-section">
-        <div>
-          <h2 class="subscribe-explore">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+      <section class="subscribe-section overlay">
+        <div class="subscribe-container">
+          <h2 class="subscribe-explore">EXPLORE OUR NEW<br/>CHOCOLATE FIRST</h2>
           <p class="subscribe-text">
             From the velvety texture to the rich and complex flavor, our New
             Chocolate is a true indulgence that will leave you craving more.
             Made with only the finest ingredients and handcrafted with the
             utmost care, each piece is a work of art that is sure to please.
           </p>
-          <button class="subscribe-btn" type="button" data-modal-open-1>
+          <button class="subscribe-btn" type="button" data-subscribe-modal-open>
             Subscribe
           </button>
         </div>
-        <div class="subscribe-modal">
-          <button data-modal-close class="subscribe-modal-btn" type="button">
+        <div class="subscribe-modal  backdrop  is-hidden" data-subscribe-modal>
+          <button  class="subscribe-modal-btn" type="button">
             <svg class="subscribe-vector">
               <use href=""></use>
             </svg>
@@ -35,10 +38,11 @@
               placeholder="Enter your email"
               required
             />
-            <button type="button">Submit</button>
+            <button  data-subscribe-modal-close type="button">Submit</button>
           </form>
         </div>
       </section>
     </main>
+    <script type="module" src="../js/subscribe.js"></script>
   </body>
 </html>
