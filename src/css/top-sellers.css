@@ -32,6 +32,7 @@ color: var(--primary-accent-color);
 
 .sellers-text-one {
   max-width: 306px;
+  padding-top: 20px;
 }
 
 .sellers-text-two {
