@@ -1,6 +1,6 @@
-<!-- <div class="order-backdrop is-hidden" data-modal>
+<div class="order-backdrop is-hidden" data-modal-2>
   <div class="order-modal">
-    <button class="btn-order-modal-close" type="button">
+    <button class="btn-order-modal-close" type="button" data-modal-close-2>
       <svg class="btn-order-modal-close-icon" width="12" height="12">
         <use href="../img/icons.svg#i-close-button"></use>
       </svg>
@@ -8,139 +8,150 @@
 
     <h2 class="order-form-title"><span>BUY</span> NOW</h2>
 
-    <ul class="list">
-      <li class="order-modal-item">
-        <img
-          src="../img/order-modal-imgs/chocolate-bar-1x.jpg"
-          alt="chocolate-bar"
-          width="120px"
-          height="107px"
-        /><span>100g</span>
-      </li>
-      <li class="order-modal-item">
-        <img
-          src="../img/order-modal-imgs/mixed-chocolate-1x.jpg"
-          alt="mixed-chocolate"
-          width="120px"
-          height="107px"
-        /><span>200g</span>
-      </li>
-      <li class="order-modal-item">
-        <img
-          src="../img/order-modal-imgs/dark-chocolate-bar-1x.jpg"
-          alt="dark-chocolate"
-          width="120px"
-          height="107px"
-        /><span>300g</span>
-      </li>
-    </ul>
-    <form class="order-modal-form">
-      <div class="order-form-group">
-        <label for="username" class="order-form-username order-form-label list">
-          <span>Personal information</span>
-        </label>
-        <label for="surname" class="order-form-surname order-form-label list">
-        </label>
-        <div class="order-form-control">
-          <input
-            id="username"
-            type="text"
-            name="username"
-            class="order-form-input"
-            placeholder="Name"
-            required
-            maxlength="29"
+    <div class="order-modal-container">
+      <ul class="order-list list">
+        <li class="order-modal-item">
+          <img
+            src="../img/order-modal-imgs/chocolate-bar-1x.jpg"
+            alt="chocolate-bar"
+            width="120px"
+            height="107px"
+            class="order-modal-img"
           />
-          <input
-            id="surname"
-            type="text"
-            name="surname"
-            class="order-form-input"
-            placeholder="Surname"
-            required
-            maxlength="29"
+          <p class="order-box">100g</p>
+        </li>
+        <li class="order-modal-item">
+          <img
+            src="../img/order-modal-imgs/mixed-chocolate-1x.jpg"
+            alt="mixed-chocolate"
+            width="120px"
+            height="107px"
+            class="order-modal-img"
           />
+          <p class="order-box">200g</p>
+        </li>
+        <li class="order-modal-item">
+          <img
+            src="../img/order-modal-imgs/dark-chocolate-bar-1x.jpg"
+            alt="dark-chocolate"
+            width="120px"
+            height="107px"
+            class="order-modal-img"
+          />
+          <p class="order-box">300g</p>
+        </li>
+      </ul>
+      <form class="order-modal-form">
+        <div class="order-form-group">
+          <label
+            for="username"
+            class="order-form-username order-form-label list"
+          >
+            <span>Personal information</span>
+          </label>
+          <label for="surname" class="order-form-surname order-form-label list">
+          </label>
+          <div class="order-form-control order-contacts-form">
+            <input
+              id="username"
+              type="text"
+              name="username"
+              class="order-form-input"
+              placeholder="Name"
+              required
+              maxlength="29"
+            />
+            <input
+              id="surname"
+              type="text"
+              name="surname"
+              class="order-form-input"
+              placeholder="Surname"
+              required
+              maxlength="29"
+            />
+          </div>
         </div>
-      </div>
 
-      <div class="order-form-group">
-        <label for="email" class="order-email form-label list">
-          <span>Email</span>
-        </label>
-        <div class="order-form-control">
-          <input
-            id="email"
-            type="text"
-            name="email"
-            class="order-form-input"
-            placeholder="Enter your email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
-            required
-            maxlength="29"
-          />
+        <div class="order-form-group">
+          <label for="email" class="order-email order-form-label list">
+            <span>Email</span>
+          </label>
+          <div class="order-form-control">
+            <input
+              id="email"
+              type="text"
+              name="email"
+              class="order-form-input"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
+              required
+              maxlength="29"
+            />
+          </div>
         </div>
-      </div>
 
-      <div class="order-form-group">
-        <label for="phone" class="order-phone order-form-label list">
-          <span>Phone number</span>
-        </label>
-        <div class="order-form-control">
-          <input
-            id="phone"
-            type="tel"
-            name="phone"
-            class="order-form-input"
-            pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"
-            placeholder="Phone number"
-            required
-            maxlength="9"
-          />
-          <span class="modal-order-icon-position">
-            <svg class="modal-order-tel-icon" width="24" height="18">
-              <use href="../img/icons.svg#i-flag"></use>
+        <div class="order-form-group">
+          <label for="phone" class="order-phone order-form-label list">
+            <span>Phone number</span>
+          </label>
+          <div class="order-form-control">
+            <input
+              id="phone"
+              type="tel"
+              name="phone"
+              class="order-form-input modal-order-tel"
+              pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"
+              placeholder="Phone number"
+              required
+              maxlength="9"
+            />
+            <span class="modal-order-icon-position">
+              <svg class="modal-order-tel-icon" width="24" height="18">
+                <use href="../img/icons.svg#i-flag"></use>
+              </svg>
+              +380
+            </span>
+          </div>
+        </div>
+
+        <div class="order-form-group">
+          <label for="card" class="order-card order-form-label list">
+            <span>Card number</span>
+          </label>
+          <div class="order-form-control">
+            <input
+              id="card"
+              type="number"
+              name="card"
+              class="order-form-input"
+              placeholder="Enter card"
+            />
+            <svg class="form-icon" width="18px" height="18px">
+              <use href="./images/symbol-defs.svg#icon-phone">+380</use>
             </svg>
-            +380
-          </span>
+          </div>
         </div>
-      </div>
 
-      <div class="order-form-group">
-        <label for="card" class="order-card order-form-label list">
-          <span>Card number</span>
-        </label>
-        <div class="order-form-control">
-          <input
-            id="card"
-            type="number"
-            name="card"
-            class="order-form-input"
-            placeholder="Enter card"
-          />
-          <svg class="form-icon" width="18px" height="18px">
-            <use href="./images/symbol-defs.svg#icon-phone">+380</use>
-          </svg>
+        <div class="order-form-group">
+          <label
+            for="order-comment"
+            class="order-textarea-comment order-form-label list"
+          >
+            <span>Comment</span>
+          </label>
+          <textarea
+            name="comment"
+            rows="5"
+            placeholder="Enter text"
+            class="order-form-textarea order-form-input"
+            id="order-comment"
+          ></textarea>
         </div>
-      </div>
-
-      <div class="order-form-group">
-        <label
-          for="order-comment"
-          class="order-textarea-comment order-form-label list"
-        >
-          <span>Comment</span>
-        </label>
-        <textarea
-          name="comment"
-          rows="5"
-          placeholder="Enter text"
-          class="order-form-textarea order-modal-input"
-          id="order-comment"
-        ></textarea>
-      </div>
-      <button type="submit" class="order-form-btn modal-order-submit-btn">
-        Submit
-      </button>
-    </form>
+        <button type="submit" class="order-form-btn modal-order-submit-btn">
+          Submit
+        </button>
+      </form>
+    </div>
   </div>
-</div> -->
+</div>

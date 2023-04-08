@@ -1,224 +1,224 @@
 /* --------------- Modal-review ---------------- */
 
 .backdrop-review {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: scroll;
-    transition-property: opacity, visibility, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  transition-property: opacity, visibility, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 100;
 }
 
 .modal-review {
-    width: 311px;
-    min-height: 471px;
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #FAFAFA;
-    border-radius: 15px;
-    padding: 32px 24px;
+  width: 311px;
+  min-height: 471px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fafafa;
+  border-radius: 15px;
+  padding: 32px 24px;
 }
 
 .btn-modal-review-close {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    padding: 0;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: transparent;
-    fill: rgba(17, 17, 17, 1);
-    cursor: pointer;
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: transparent;
+  fill: rgba(17, 17, 17, 1);
+  cursor: pointer;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal-review-close:is(:hover, :focus) {
-    background-color: #FCF1E0;
-    fill: #FD9222;
+  background-color: #fcf1e0;
+  fill: #fd9222;
 }
 
 .modal-review-title {
-    margin: 0;
-    max-width: 255px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
+  margin: 0;
+  max-width: 255px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 
 .modal-review-title span {
-    color: rgba(253, 146, 34, 1);
+  color: var(--primary-accent-color);
 }
 
 .modal-review-form {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    row-gap: 14px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 14px;
 }
 
 .modal-review-label {
-    position: relative;
+  position: relative;
 }
 
 .modal-review-input {
-    width: 100%;
-    height: 45px;
-    padding: 14px 18px;
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
-    border-radius: 8px;
-    background: #FAFAFA;
+  width: 100%;
+  height: 45px;
+  padding: 14px 18px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  background: #fafafa;
 }
 
 .modal-review-input::placeholder {
-    font-size: 14px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
-    color: rgba(64, 64, 64, 0.3);
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
 }
 
 .modal-review-icon-position {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 74px;
-    padding: 4px 8px 4px 0;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
-    color: #000000;
-    position: absolute;
-    top: 50%;
-    left: 18px;
-    transform: translateY(-50%);
-    border-right: 2px solid rgba(64, 64, 64, 0.3);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 74px;
+  padding: 4px 8px 4px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  border-right: 2px solid rgba(64, 64, 64, 0.3);
 }
 
 .modal-review-tel {
-    padding: 0;
-    padding: 10px 18px 10px 106px;
+  padding: 0;
+  padding: 10px 18px 10px 106px;
 }
 
 .modal-review-textarea {
-    height: 91px;
-    resize: none;
+  height: 91px;
+  resize: none;
 }
 
 .modal-review-send-btn {
-    display: block;
-    margin-top: 4px;
-    width: 93px;
-    height: 41px;
-    background: #FD9222;
-    border-radius: 100px;
-    border-color: transparent;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-    color: #FFFFFF;
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  margin-top: 4px;
+  width: 93px;
+  height: 41px;
+  background: #fd9222;
+  border-radius: 100px;
+  border-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #ffffff;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-review-send-btn:is(:hover, :focus) {
-    cursor: pointer;
-    color: rgba(253, 146, 34, 1);
-    background-color: rgba(252, 241, 224, 1);
+  cursor: pointer;
+  color: rgba(253, 146, 34, 1);
+  background-color: rgba(252, 241, 224, 1);
 }
 
 @media screen and (min-width: 768px) {
+  .modal-review {
+    width: 517px;
+    min-height: 631px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+  }
 
-    .modal-review {
-        width: 517px;
-        min-height: 631px;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 40px;
-    }
+  .btn-modal-review-close {
+    top: 24px;
+    right: 24px;
+    width: 28px;
+    height: 28px;
+  }
 
-    .btn-modal-review-close {
-        top: 24px;
-        right: 24px;
-        width: 28px;
-        height: 28px;
-    }
+  .btn-modal-review-close-icon {
+    width: 14px;
+    height: 14px;
+  }
 
-    .btn-modal-review-close-icon {
-        width: 14px;
-        height: 14px;
-    }
+  br {
+    display: none;
+  }
 
-    br {
-        display: none;
-    }
+  .modal-review-title {
+    max-width: 298px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
 
-    .modal-review-title {
-        max-width: 298px;
-        font-size: 24px;
-        line-height: 1.17;
-    }
+  .modal-review-form {
+    margin-top: 40px;
+    row-gap: 19px;
+  }
 
-    .modal-review-form {
-        margin-top: 40px;
-        row-gap: 19px;
-    }
+  .modal-review-input {
+    height: 66px;
+    padding: 22px 24px;
+  }
 
-    .modal-review-input {
-        height: 66px;
-        padding: 22px 24px;
-    }
+  .modal-review-input::placeholder {
+    font-size: 18px;
+    line-height: 1.22;
+  }
 
-    .modal-review-input::placeholder {
-        font-size: 18px;
-        line-height: 1.22;
-    }
+  .modal-review-icon-position {
+    width: 125px;
+    padding: 5px 32px 5px 0;
+    font-size: 18px;
+    line-height: 1.22;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+  }
 
-    .modal-review-icon-position {
-        width: 125px;
-        padding: 5px 32px 5px 0;
-        font-size: 18px;
-        line-height: 1.22;
-        position: absolute;
-        top: 50%;
-        left: 24px;
-    }
+  .modal-review-tel {
+    padding: 0;
+    padding: 17px 24px 17px 176px;
+  }
 
-    .modal-review-tel {
-        padding: 0;
-        padding: 17px 24px 17px 176px;
-    }
+  .modal-review-tel-icon {
+    width: 32px;
+    height: 24px;
+  }
 
-    .modal-review-tel-icon {
-        width: 32px;
-        height: 24px;
-    }
+  .modal-review-textarea {
+    height: 137px;
+  }
 
-    .modal-review-textarea {
-        height: 137px;
-    }
-
-    .modal-review-send-btn {
-        margin-top: -1px;
-        width: 117px;
-        height: 45px;
-    }
+  .modal-review-send-btn {
+    margin-top: -1px;
+    width: 117px;
+    height: 45px;
+  }
 }
