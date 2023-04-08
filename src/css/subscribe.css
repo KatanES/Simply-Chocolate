@@ -173,12 +173,13 @@ top: 50%;
 left: 50%;
 }
 
+
   
 .subscribe-list{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-  } 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    } 
 
 
 .subscribe-photo-modal{
@@ -186,6 +187,7 @@ max-width: 375px;
 background-color: var(--primary-header);
 margin-bottom: 32px;
 }
+
 
 
 .subscribe-list-input{
@@ -325,7 +327,19 @@ line-height: 22px;
 .subscribe-btn:focus{
   color:  #FD9222;
   background-color: #FCF1E0;}
+
+  .subscribe-modal{
+    max-width: 538px;
+  max-height: 462px;
 }
+.subscribe-photo-modal{
+  max-width: 568px;
+}
+}
+
+
+
+
 
 /* =================desktop =====================================*/
 
@@ -384,4 +398,11 @@ line-height: 22px;
   background-color: #FCF1E0;
 }
 
+.subscribe-modal{
+  max-width: 538px;
+max-height: 462px;
+}
+.subscribe-photo-modal{
+max-width: 568px;
+}
 }
