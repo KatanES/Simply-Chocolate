@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/subscribe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="../js/subscribe.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@800&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -24,22 +27,37 @@
             Subscribe
           </button>
         </div>
-        <div class="subscribe-modal  backdrop  is-hidden" data-subscribe-modal>
-          <button  class="subscribe-modal-btn" type="button">
-            <svg class="subscribe-vector">
-              <use href=""></use>
-            </svg>
-          </button>
-          <h2>Explore our new chocolate first!</h2>
-          <form>
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              required
+        <div class="subscribe-modal    backdrop  is-hidden" data-subscribe-modal>
+         <div class="subscribe-container-modal">
+          <ul class="subscribe-list">
+            <li class="subscribe-photo-modal">
+              <img
+              srcset="../img/Subscribe.img/Subscribe-modal.jpg 1x, ../img/Subscribe.img/Subscribe-modal-2x.jpg 2x"
+              src="../img/Subscribe.img/Subscribe-modal"
+              alt="chocolate"
+              width="100%"
+              height="169"
             />
-            <button  data-subscribe-modal-close type="button">Submit</button>
-          </form>
+            <svg class="subscribe-vector">
+              <use href="../img/icons.svg#i-close-button"></use>
+            </svg>
+             
+        </li>
+         <li >
+              <h2 class="subscribe-modal-text">Explore our <span class="subscribe-new-color"> new chocolate</span> first!</h2>
+              <form>
+                <input
+                class="subscribe-input"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button  data-subscribe-modal-close type="button">Submit</button>
+              </form>
+            </li>
+          </ul>
+         </div>
         </div>
       </section>
     </main>
