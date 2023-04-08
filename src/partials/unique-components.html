@@ -1,31 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
-    <p>
-      At Simply Chocolate, we believe that the secret to exceptional chocolate
-      is in the details. From the sourcing of the finest ingredients to the
-      careful crafting of each individual piece, every step of our process adds
-      up to one exceptional taste sensation.
-    </p>
-    <ul class="ingredients">
-      <li class="card-one">
-        <div class="card">
+<section class="unique-components-section section">
+  <h2 class="uc-caption">
+    IT ALL ADDS UP TO ONE EXCEPTIONAL
+    <span class="taste">TASTE</span> SENSATION
+  </h2>
+  <p class="uc-subscribe">
+    At Simply Chocolate, we believe that the secret to exceptional chocolate is
+    in the details. From the sourcing of the finest ingredients to the careful
+    crafting of each individual piece, every step of our process adds up to one
+    exceptional taste sensation.
+  </p>
+  <div class="unique-components-container container">
+    <ul class="ingredients-list list">
+      <li class="card-one card">
+        <div class="uc-card">
           <div class="image">
-            <img
-              src="../img/unique-components/milk-chocolade.jpg"
-              alt="milk-chocolade"
-            />
-
+            <picture class="uc-card">
+              <source
+                srcset="
+                  ./img/unique-components/milk-chocolade.jpg    1x,
+                  ./img/unique-components/milk-chocolade@2x.jpg 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/unique-components/milk-chocolade-desc.jpg    1x,
+                  ./img/unique-components/milk-chocolade-desc@2x.jpg 2x
+                "
+                media="(max-width: 1200px)"
+              />
+              <img
+                src="./img/unique-components/milk-chocolade-desc.jpg"
+                alt="milk-chocolade"
+              />
+            </picture>
             <p>MILK CHOCOLATE</p>
           </div>
-          <div class="info">
+          <div class="uc-info">
             <h3>MILK CHOKOLATE</h3>
             <button>chocolate</button>
             <button>the benefits</button>
@@ -39,13 +50,32 @@
           </div>
         </div>
       </li>
-      <li class="card-two">
-        <div class="card">
+      <li class="card-two card">
+        <div class="uc-card">
           <div class="image">
-            <img src="../img/unique-components/milk.jpg" alt="milk" />
+            <picture class="uc-card">
+              <source
+                srcset="
+                  ./img/unique-components/milk.jpg    1x,
+                  ./img/unique-components/milk@2x.jpg 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/unique-components/milk-desc.jpg    1x,
+                  ./img/unique-components/milk-desc@2x.jpg 2x
+                "
+                media="(max-width: 1200px)"
+              />
+              <img
+                src="./img/unique-components/milk-chocolade-desc.jpg"
+                alt="milk"
+              />
+            </picture>
             <p>MILK</p>
           </div>
-          <div class="info">
+          <div class="uc-info">
             <h3>MILK</h3>
             <button>milk</button>
             <button>the benefits</button>
@@ -59,13 +89,29 @@
           </div>
         </div>
       </li>
-      <li class="card-three">
-        <div class="card">
+      <li class="card-three card">
+        <div class="uc-card">
           <div class="image">
-            <img src="../img/unique-components/nuts.jpg" alt="nuts" />
+            <picture class="uc-card">
+              <source
+                srcset="
+                  ./img/unique-components/nuts.jpg    1x,
+                  ./img/unique-components/nuts@2x.jpg 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/unique-components/nuts-desc.jpg    1x,
+                  ./img/unique-components/nuts-desc@2x.jpg 2x
+                "
+                media="(max-width: 1200px)"
+              />
+              <img src="./img/unique-components/nuts-desc.jpg" alt="nuts" />
+            </picture>
             <p>NUTS</p>
           </div>
-          <div class="info">
+          <div class="uc-info">
             <h3>NUTS</h3>
             <button>nuts</button>
             <button>the benefits</button>
@@ -79,16 +125,32 @@
           </div>
         </div>
       </li>
-      <li class="card-four">
-        <div class="card">
+      <li class="card-four card">
+        <div class="uc-card">
           <div class="image">
-            <img
-              src="../img/unique-components/semi-sweet-chocolade.jpg"
-              alt="semi-sweet-chocolade"
-            />
+            <picture class="uc-card">
+              <source
+                srcset="
+                  ./img/unique-components/semi-sweet-chocolade.jpg    1x,
+                  ./img/unique-components/semi-sweet-chocolade@2x.jpg 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/unique-components/semi-sweet-chocolade-desc.jpg    1x,
+                  ./img/unique-components/semi-sweet-chocolade-desc@2x.jpg 2x
+                "
+                media="(max-width: 1200px)"
+              />
+              <img
+                src="./img/unique-components/semi-sweet-chocolade-desc.jpg"
+                alt="milk"
+              />
+            </picture>
             <p>SEMI - SWEET CHOCOLATE</p>
           </div>
-          <div class="info">
+          <div class="uc-info">
             <h3>SEMI - SWEET CHOCOLATE</h3>
             <button>sweet chocolate</button>
             <button>the benefits</button>
@@ -103,5 +165,5 @@
         </div>
       </li>
     </ul>
-  </body>
-</html>
+  </div>
+</section>

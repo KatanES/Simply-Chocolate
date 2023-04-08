@@ -1,28 +1,236 @@
-:root {
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-  
-    --primary-text-color: #111111;
-    --primary-background-color: #e2e2e2;
-    --2nd-background-color: #1e1823;
-    --primary-accent-color: #fd9222;
-  
-    color: #111111;
-    background-color: #e2e2e2;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
+/* ============Subscribe ==============*/
+
+.subscribe-explore {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 356px;
+}
+
+.subscribe-explore {
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscribe-text {
+  font-family: 'Montserrat';
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  font-family: 'Montserrat';
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  height: 41px;
+  background-color: var(--primary-accent-color);
+  border-radius: 100px;
+
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+/* .overlay {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/mobile-photo.jpg');
+} */
+
+.subscribe-section {
+  padding-top: 62px;
+  padding-bottom: 63px;
+  background-color: #2e2f42;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('../img/Subscribe.img/Subcribe-mobil.jpg');
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/Subscribe.img/Subcribe-tablet2x.jpg);
+  }
+  .subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 497px;
+  }
+  .subscribe-explore {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
   }
 
-.subscribe-btn{
+  .subscribe-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subscribe-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
     width: 172px;
     height: 50px;
-    background-color: var(--primary-accent-color);
-    border-radius: 100px;
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    color: #fd9222;
+    background-color: #fcf1e0;
+  }
+
+  .subscribe-modal {
+    max-width: 538px;
+    max-height: 462px;
+  }
+  .subscribe-photo-modal {
+    max-width: 568px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .subscribe-section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/Subscribe.img/Subcribe-tablet.jpg');
+  }
+}
+
+/* DESCTOP */
+@media screen and (min-width: 768px) {
+  .subscribe-section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 1200px;
+    width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/Subscribe.img/Subcribe-desktop.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/Subscribe.img/Subcribe-desktop2x.jpg);
+    }
+  }
+
+  .subscribe-container {
+    max-width: 497px;
+  }
+
+  .subscribe-explore {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .subscribe-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subscribe-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 172px;
+    height: 50px;
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    color: #fd9222;
+    background-color: #fcf1e0;
+  }
 }
