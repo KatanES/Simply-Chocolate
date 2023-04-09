@@ -42,12 +42,13 @@
   color: #111111;
 }
 .uc-info {
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 28px;
   width: 335px;
   height: 270px;
   margin-bottom: 20px;
+  /* overflow: scroll; */
 }
 .uc-subtitle {
   font-family: 'Montserrat';
@@ -58,6 +59,35 @@
   text-transform: uppercase;
   color: #111111;
   margin-bottom: 8px;
+}
+.uc-info-btn {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2px;
+  color: #111111;
+  border: none;
+  height: 24px;
+  padding: 6px 20px;
+  background-color: #fafafa;
+  border: 1px solid #fd9222;
+  border-radius: 35px;
+  margin-bottom: 14px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.uc-info-btn:hover,
+.uc-info-btn:focus {
+  color: #ffffff;
+  background-color: #fd9222;
+}
+.uc-info-overlay {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
 }
 @media screen and (min-width: 768px) {
   .uc-conteiner {
@@ -85,8 +115,8 @@
 }
 @media screen and (min-width: 1200px) {
   .uc-conteiner {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 128px;
+    padding-bottom: 128px;
   }
   .ingredients-list {
     gap: 19px;
