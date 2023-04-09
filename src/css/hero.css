@@ -13,7 +13,7 @@ h2 {
 div {
   display: block;
 } */
-.hero {
+/* .hero {
   background-color: #fcf1e0;
   background-image: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.4)),
     url(../img/hero/hero-mobile-1x.jpg);
@@ -141,9 +141,8 @@ div {
   justify-content: center;
   background-color: #ffffff;
   border-color: transparent;
-}
-.hero-scroll {
-  /* background-color: #ffffff; */
+} */
+/* .hero-scroll {
   stroke: var(--primary-accent-color);
   margin-top: 32px;
   margin-bottom: 27px;
@@ -151,8 +150,8 @@ div {
   display: flex;
   width: 12px;
   height: 12px;
-}
-.svg {
+} */
+/* .svg {
   stroke: var(--primary-accent-color);
 }
 
@@ -245,4 +244,115 @@ div {
   .hero-him-btn {
     margin-right: 585px;
   }
+} */
+
+.visuality-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero__bcg {
+  padding: 375px 16px 20px 20px;
+  margin-bottom: 72px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  border-radius: 30px;
+  background-image: url(../img/hero/hero-mobile-1x.jpg);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-resolution: 144dpi) {
+  .hero__bcg {
+    background-image: url(../img/hero/hero-mobile-2x.jpg);
+  }
+}
+
+.hero__text {
+  margin-bottom: 32px;
+  text-align: start;
+  text-transform: lowercase;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+
+.hero__firstword {
+  text-transform: capitalize;
+}
+
+.hero__buttons {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__button {
+  margin-bottom: 23px;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #fff;
+  border-radius: 100px;
+  background-color: var(--primary-accent-color);
+  border-color: transparent;
+}
+
+.hero__anchor {
+  margin-bottom: 23px;
+  padding: 12px 28px;
+  scroll-behavior: smooth;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #fff;
+
+  border: 1px solid #fff;
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero__anchor:hover,
+.hero__anchor:focus {
+  color: #fd9222;
+  border-color: #fd9222;
+  background-color: #e2e2e2;
+}
+
+.hero__link {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.21;
+  color: #e2e2e2;
+  scroll-behavior: smooth;
+}
+
+.hero__scroll-icon {
 }
