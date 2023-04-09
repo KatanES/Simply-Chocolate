@@ -65,6 +65,14 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+
+.header-mobile-menu {
+  transform: translateX(100%);
 }
 
 .header-mobile.is-open {
