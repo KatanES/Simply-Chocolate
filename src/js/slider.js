@@ -1,17 +1,17 @@
-import Swiper from 'swiper/bundle';
+// import Swiper from 'swiper/bundle';
 
-const swiper = new Swiper('.swiper', {
+// const swiper = new Swiper('.swiper', {
   // Optional parameters
 
-  spaceBetween: 20,
+  // spaceBetween: 20,
 
-  pagination: {
-    el: '.slider-pagination',
-    clickable: true,
-    slidesToShow: 4,
-    loop: true,
-    speed: 1000,
-  },
+  // pagination: {
+  //   el: '.slider-pagination',
+  //   clickable: true,
+  //   slidesToShow: 4,
+  //   loop: true,
+  //   speed: 1000,
+  // },
 
   // breakpoints: {
   //   768: {
@@ -24,4 +24,4 @@ const swiper = new Swiper('.swiper', {
   //     spaceBetween: 40,
   //   },
   // },
-});
+//});
