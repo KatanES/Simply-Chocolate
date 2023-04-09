@@ -41,6 +41,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.body {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
 .container {
   max-width: 100%;
   padding-left: 15px;
