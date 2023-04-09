@@ -1,0 +1,64 @@
+.uc-caption {
+  font-family: Montserrat;
+  font-weight: 600;
+  size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 72px;
+}
+
+.uc-subscribe {
+  font-family: Montserrat;
+  font-weight: 400;
+  size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 32px;
+  width: 335px;
+  height: 108px;
+}
+.ingredients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+}
+.taste {
+  color: #fd9222;
+}
+.card {
+  width: 335px;
+  height: 270px;
+  border-radius: 15px;
+}
+.uc-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.uc-card:hover {
+  transform: rotateY(180deg);
+}
+unique-components-section .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+unique-components-section .uc-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
