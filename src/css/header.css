@@ -168,9 +168,14 @@
     color: #fd9222;
   }
 
-  .header-mobil-menu-socials-link:focus,
-  .header-mobil-menu-socials-link:hover {
-    fill: #fd9222;
+  .header-mobile-menu-socials-pic:focus,
+  .header-mobile-menu-socials-pic:hover {
+    fill: rgba(253, 146, 34, 1);
+  }
+
+  .header-mobile-menu-bth-pic:hover,
+  .header-mobile-menu-bth-pic:focus {
+    fill: rgba(253, 146, 34, 1);
   }
 
   .header-list-link {
