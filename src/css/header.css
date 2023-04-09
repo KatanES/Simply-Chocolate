@@ -55,6 +55,8 @@
 }
 
 .header-mobile-menu {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   width: 220px;
   height: 100%;
@@ -68,7 +70,6 @@
   transition-property: transform;
   transition-duration: 500ms;
   transition-timing-function: linear;
-  transition-delay: 0;
 }
 
 .header-mobile-menu {
@@ -133,9 +134,8 @@
 .header-mobil-menu-social {
   display: flex;
   margin-left: 20px;
-  position: relative;
-  top: 242px;
-  bottom: 0;
+  margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .header-mobil-menu-list-social {
@@ -153,6 +153,11 @@
 .header-mobile-menu-socials-pic {
   width: 22px;
   height: 22px;
+}
+
+.header-mobile-menu-button-icon {
+  width: 28px;
+  height: 28px;
 }
 
 /* ------Tablet------- */
@@ -174,6 +179,10 @@
   .header-list-link:hover,
   .header-list-link:focus {
     color: #fd9222;
+  }
+
+  .header-mobil-menu-social {
+    margin-bottom: 24px;
   }
 
   .header-mobile-menu-socials-pic:focus,
@@ -208,6 +217,11 @@
   .header-mobile-menu-socials-pic {
     width: 24px;
     height: 24px;
+  }
+
+  .header-mobile-menu-button-icon {
+    width: 32px;
+    height: 32px;
   }
 }
 
