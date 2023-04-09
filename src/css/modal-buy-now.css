@@ -82,6 +82,7 @@
 }
 
 .order-form-control {
+  position: relative;
   display: flex;
 }
 
@@ -181,17 +182,18 @@
   letter-spacing: -0.02em;
   color: #000000;
   position: absolute;
-  /* top: 50%; */
-  /* left: 18px; */
-  /* transform: translateY(-50%); */
+  top: 50%;
+  left: 24px;
+  padding-top: 17px;
+  transform: translateY(-50%);
   border-right: 2px solid rgba(64, 64, 64, 0.3);
 }
 
 .order-form-icon {
   display: flex;
   position: absolute;
-  margin-left: 217px;
-  margin-top: 12px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .order-form-textarea {
