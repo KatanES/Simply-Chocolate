@@ -6,9 +6,9 @@
 //   },
 //   pagination: {
 //     el: '.swiper-pagination',
-    // clickable: true,
-    //dynamicBullets: true,
-    //slideToClickedSlide: true,
+// clickable: true,
+//dynamicBullets: true,
+//slideToClickedSlide: true,
 //   },
 //   //безкінцево
 //   //loop: true,
@@ -27,7 +27,7 @@ const swiper = new Swiper('.swiper', {
   },
   loop: true,
   speed: 1000,
-  });
+});
 
 // var swiper = new Swiper(".swiper", {
 //   effect: "flip",

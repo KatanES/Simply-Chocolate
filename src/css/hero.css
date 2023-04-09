@@ -246,9 +246,6 @@ div {
   }
 } */
 
-
-
-
 .visuality-hidden {
   position: absolute;
   width: 1px;
@@ -262,9 +259,12 @@ div {
   overflow: hidden;
 }
 
+.hero {
+  padding-bottom: 72px;
+}
+
 .hero__bcg {
   padding: 375px 16px 20px 20px;
-  margin-bottom: 72px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -320,7 +320,7 @@ div {
   background-color: var(--primary-accent-color);
   border-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -340,8 +340,8 @@ div {
   border-radius: 100px;
   background-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover,
@@ -366,23 +366,23 @@ div {
   color: #e2e2e2;
   scroll-behavior: smooth;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__scroll-icon {
-    margin-left: 14px;
-    padding-top: 6px;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background-color: #fff;
-    fill:var(--primary-accent-color) ;
-    stroke: var(--primary-accent-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 14px;
+  padding-top: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #fff;
+  fill: var(--primary-accent-color);
+  stroke: var(--primary-accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__link:hover,
@@ -398,63 +398,67 @@ div {
   fill: #fff;
 }
 
-@media screen and (min-width: 375px) {
-}
-
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+
   .hero__bcg {
-      padding: 670px 40px 40px 40px;
-      max-width: 1199px;
-      background-image: url(../img/hero/hero-tablet-1x.jpg);
+    padding: 670px 40px 40px 40px;
+    max-width: 1199px;
+    background-image: url(../img/hero/hero-tablet-1x.jpg);
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-resolution: 1.5dppx),
+    only screen and (min-resolution: 144dpi) {
+    .hero__bcg {
+      background-image: url(../img/hero/hero-tablet-2x.jpg);
     }
+  }
 
- @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
- only screen and (min--moz-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min-resolution: 1.5dppx),
- only screen and (min-resolution: 144dpi) {
-   .hero__bcg {
-     background-image: url(../img/hero/hero-tablet-2x.jpg);
-   }
- }
+  .hero__text {
+    width: 484px;
+    margin-bottom: 32px;
+    margin-right: 180px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    color: #fff;
+  }
 
- .hero__text {
-   width: 484px;
-   margin-bottom: 32px;
-   margin-right: 180px;
-   font-weight: 500;
-   font-size: 28px;
-   line-height: 1.21;
-   color: #fff;
- }
+  .hero__buttons {
+    align-items: baseline;
+    justify-content: start;
+    gap: 14px;
+  }
 
- .hero__buttons {
-   align-items: baseline;
-   justify-content: start;
-   gap: 14px;
- }
+  .hero__anchor {
+    padding: 14px 40px;
+    margin-bottom: 0;
+    width: 183px;
+    height: 45px;
+  }
 
- .hero__anchor {
-   padding: 14px 40px;
-   margin-bottom: 0;
-   width: 183px;
-   height: 45px;
- }
+  .hero__button {
+    margin-bottom: 0;
+    padding: 14px 40px;
+    width: 144px;
+    height: 45px;
+  }
 
- .hero__button {
-   margin-bottom: 0;
-   padding: 14px 40px;
-   width: 144px;
-   height: 45px;
- }
-
- .hero__link {
-   margin-left: auto;
- }
-
+  .hero__link {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .hero {
+    padding-bottom: 72px;
+  }
+
   .hero__bcg {
     padding: 381px 40px 40px 40px;
     max-width: 1199px;
@@ -463,10 +467,10 @@ div {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min--moz-device-pixel-ratio: 1.5),
-  only screen and (-o-min-device-pixel-ratio: 3/2),
-  only screen and (min-resolution: 1.5dppx),
-  only screen and (min-resolution: 144dpi) {
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-resolution: 1.5dppx),
+    only screen and (min-resolution: 144dpi) {
     .hero__bcg {
       background-image: url(../img/hero/hero-desktop-2x.jpg);
     }
@@ -487,17 +491,16 @@ div {
     justify-content: start;
     gap: 14px;
   }
-  
+
   .hero__anchor {
     padding: 14px 40px;
   }
-  
+
   .hero__button {
     padding: 14px 40px;
   }
-  
+
   .hero__link {
     margin-left: auto;
   }
-  
 }
