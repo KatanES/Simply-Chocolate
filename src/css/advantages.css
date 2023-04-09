@@ -1,98 +1,123 @@
+.advantages-container {
+  max-width: 320px;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.advatages-list {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
 .section-advatages {
-    padding: 20px 0px 36px 20px;
-    margin-top: 72px;
-    background-color: var(--2nd-background-color);
+  padding: 0;
+  margin-top: 72px;
+  background-color: var(--2nd-background-color);
 }
 .advatages-item {
-    margin: 0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .advatages-item:nth-child(3) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .advatages-title {
-    padding: 0px 0px 18px 0px;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.22;
-    color: var(--primary-background-color);
+  padding: 0px 0px 18px 0px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.22;
+  color: var(--primary-background-color);
 }
 .advatages-text {
-    width: 308px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
-    color: rgba(255, 255, 255, 0.7);
+  width: 308px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
 }
 .advatages-icon {
-    fill: #FD9222;
+  fill: #fd9222;
 }
 .advatages-it {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 0px 22px 0px;
-    width: 62px;
-    height: 62px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 22px 0px;
+  width: 62px;
+  height: 62px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
 }
 
+@media screen and (min-width: 320px) {
+  .advantages-container {
+    padding: 0;
+    padding-top: 10px;
+  }
 
-@media screen and (min-width:375px) {
-    .advantages-container{
-      max-width:375px;
-    }
+  .advatages-text {
+    width: 280px;
   }
-  @media screen and (min-width:768px) {
-    .advantages-container{
-      max-width: 768px;
-      padding: 0 32px;
-    }
-    .section-advatages {
-        padding: 50px 0px 85px 0px;
-        margin-top: 50px;
-    }
-    .advatages-list {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 60px;
-    }
-    .advatages-item {
-        margin: 0px 0px 32px 0px;
-    }
-  }
-  @media screen and (min-width:1200px) {
-    .advantages-container{
-      max-width: 1200px;
-    
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-    .section-advatages {
-        padding: 50px 0px;
-        margin-top: 72px;
-    }
-    .advatages-list {
-        column-gap: 88px;
-    }
-    .advatages-item {
-        margin: 0px;
-    }
-    .advatages-item.line {
-        position: relative;
-    }
-    .advatages-item.line::after {
-        position: absolute;
-        display: inline-block;
-        content: '';
-        width: 124px;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        transform: rotate(90deg);
-        top: 50%;
-        left: 85%;
-    }
 
+  .advatages-list {
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
+}
+
+@media screen and (min-width: 375px) {
+  .advantages-container {
+    max-width: 375px;
+    padding: 20px 0px 36px 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .section-advatages {
+    padding: 50px 0px 85px 0px;
+    margin-top: 50px;
+  }
+  .advatages-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+  }
+  .advatages-item {
+    margin: 0px 0px 32px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantages-container {
+    max-width: 1200px;
+
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-advatages {
+    padding: 50px 0px;
+    margin-top: 72px;
+  }
+  .advatages-list {
+    column-gap: 88px;
+  }
+  .advatages-item {
+    margin: 0px;
+  }
+  .advatages-item.line {
+    position: relative;
+  }
+  .advatages-item.line::after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    width: 124px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(90deg);
+    top: 50%;
+    left: 85%;
+  }
+}

@@ -264,7 +264,7 @@ div {
   margin-bottom: 72px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;    
+  background-position: center;
   margin-left: auto;
   margin-right: auto;
   max-width: 375px;
@@ -272,28 +272,26 @@ div {
   background-image: url(../img/hero/hero-mobile-1x.jpg);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-resolution: 1.5dppx),
-only screen and (min-resolution: 144dpi) {
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-resolution: 144dpi) {
   .hero__bcg {
     background-image: url(../img/hero/hero-mobile-2x.jpg);
   }
 }
 
-
-
 .hero__text {
   margin-bottom: 32px;
-    text-align: start;
-    text-transform: lowercase;
-    font-weight: 500;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.03em;
+  text-align: start;
+  text-transform: lowercase;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
 }
 
 .hero__firstword {
@@ -315,47 +313,46 @@ only screen and (min-resolution: 144dpi) {
   color: #fff;
   border-radius: 100px;
   background-color: var(--primary-accent-color);
-
+  border-color: transparent;
 }
-
-
 
 .hero__anchor {
   margin-bottom: 23px;
-    padding: 12px 28px;
-    scroll-behavior: smooth;
-  
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-    color: #fff;
-  
-    border: 1px solid #fff;
-    border-radius: 100px;
-    background-color: transparent;
+  padding: 12px 28px;
+  scroll-behavior: smooth;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #fff;
+
+  border: 1px solid #fff;
+  border-radius: 100px;
+  background-color: transparent;
 }
 
 .hero__button:hover,
 .hero__button:focus {
-  background-color:#FCF1E0;
-  color: #FD9222;
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 
 .hero__anchor:hover,
 .hero__anchor:focus {
-  color: #FD9222;
-  border-color: #FD9222;
-  background-color: #E2E2E2;
+  color: #fd9222;
+  border-color: #fd9222;
+  background-color: #e2e2e2;
 }
 
 .hero__link {
   align-items: center;
-    display: flex;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.21;
-    color: #E2E2E2;
-    scroll-behavior: smooth;
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.21;
+  color: #e2e2e2;
+  scroll-behavior: smooth;
 }
 
-.hero__scroll-icon {}
+.hero__scroll-icon {
+}
