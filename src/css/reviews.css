@@ -156,6 +156,7 @@
   /* задає висоту */
 .image-slider {
     padding: 0 0 0 0;
+   
 } 
 
 /* button next and prev */
@@ -178,6 +179,15 @@
     background:  #FD9222;
     width: 28px;
     border-radius: 8px;
+}
+
+.image-slider .swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none
 }
 
 
