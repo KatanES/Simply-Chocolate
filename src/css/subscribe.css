@@ -1,40 +1,36 @@
 /* ============Subscribe ==============*/
 
-.subscribe-explore {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
 
-  color: #ffffff;
-}
 
 .subscribe-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  max-width: 356px;
+  max-width: 326px;
 }
 
 .subscribe-explore {
-  font-family: 'Montserrat';
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-
+  width: 291px;
+  font-family: 'Montserrat';
+  display: flex;
+  text-align: center;
+  margin-bottom: 24px;
   color: #ffffff;
 }
 
+
 .subscribe-text {
+  display: flex;
+  text-align: center;
   font-family: 'Montserrat';
   margin-bottom: 24px;
   font-weight: 400;
@@ -61,6 +57,10 @@
   line-height: 17px;
   color: #ffffff;
 }
+
+
+
+
 
 .subscribe-section {
   padding-top: 62px;
@@ -92,48 +92,9 @@
       ),
       url(../img/Subscribe.img/Subcribe-mobile-2x.jpg);
   }
-  .subscribe-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 497px;
-  }
-  .subscribe-explore {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-  }
-
-  .subscribe-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  .subscribe-btn {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    width: 172px;
-    height: 50px;
-  }
-
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
-    color: #fd9222;
-    background-color: #fcf1e0;
-  }
-
-  .subscribe-modal {
-    max-width: 538px;
-    max-height: 462px;
-  }
-  .subscribe-photo-modal {
-    max-width: 568px;
-  }
 }
+
+/* TABLET */
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .subscribe-section {
     padding-top: 72px;
@@ -165,6 +126,32 @@
         url(../img/Subscribe.img/Subcribe-tablet2x.jpg);
     }
       }
+
+      .subscribe-container {
+        max-width: 467px;
+        align-items: center;
+      }
+
+      .subscribe-explore {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .subscribe-btn {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        width: 172px;
+        height: 50px;
+      }
+
+      .subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
   }
 
 
@@ -202,13 +189,15 @@
   }
 
   .subscribe-container {
-    max-width: 497px;
+    max-width: 467px;
+    align-items: center;
   }
 
   .subscribe-explore {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
+    width: 378px;
   }
 
   .subscribe-text {
