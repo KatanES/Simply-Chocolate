@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import url('./font-face.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -41,8 +42,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.body {
-  font-family: Montserrat, sans-serif;
+body {
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
