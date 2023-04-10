@@ -7,6 +7,9 @@
 .advatages-list {
   padding-left: 10px;
   padding-bottom: 10px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 70px;
 }
 
 .section-advatages {
@@ -90,7 +93,7 @@
     max-width: 1200px;
 
     width: 100%;
-    padding-left: 15px;
+    padding-left: 50px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +102,9 @@
     padding: 50px 0px;
   }
   .advatages-list {
-    column-gap: 88px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 70px;
   }
   .advatages-item {
     margin: 0px;
