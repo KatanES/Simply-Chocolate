@@ -147,11 +147,12 @@
   border-radius: 50px;
   background-color: var(--primary-accent-color);
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+
+/* .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   margin: 0;
-}
+} */
 
 /* ---------------media----------- */
 @media screen and (min-device-pixel-ratio: 2),
