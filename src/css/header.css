@@ -352,4 +352,9 @@
   .header-socials-link:hover {
     fill: #fd9222;
   }
+
+  .header-logo-text:hover,
+  .header-logo-text:focus {
+    color: #fd9222;
+  }
 }
