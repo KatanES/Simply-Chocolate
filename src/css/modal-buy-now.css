@@ -23,7 +23,9 @@
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   background-color: #ffffff;
-  padding: 32px 0 32px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .order-modal-item:not(:last-child) {
@@ -50,8 +52,11 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-right: 16px;
   padding: 8px 20px;
   gap: 14px;
+
+  font-weight: 600;
 }
 
 .order-modal-img {
@@ -65,7 +70,7 @@
 }
 
 .order-modal {
-  width: auto;
+  width: 311px;
   min-height: 471px;
   position: absolute;
   top: 5px;
@@ -77,8 +82,8 @@
 }
 
 .order-form-control {
+  position: relative;
   display: flex;
-  /* gap: 21px; */
 }
 
 .btn-order-modal-close {
@@ -126,7 +131,12 @@
 .order-contacts-form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  row-gap: 14px;
+  width: 100%;
+}
+
+.order-form-label {
+  position: relative;
 }
 
 .order-form-label span {
@@ -140,6 +150,7 @@
 .order-form-input {
   width: 100%;
   height: 45px;
+  margin-top: 8px;
   padding: 14px 18px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
@@ -157,13 +168,12 @@
 .modal-order-tel {
   padding: 0;
   padding: 10px 18px 10px 106px;
-  position: relative;
 }
 
 .modal-order-icon-position {
   display: flex;
   justify-content: space-between;
-  /* position: relative; */
+  position: relative;
   width: 74px;
   padding: 4px 8px 4px 0;
   font-weight: 500;
@@ -171,11 +181,19 @@
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: #000000;
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
-  left: 18px;
+  left: 24px;
+  padding-top: 17px;
   transform: translateY(-50%);
   border-right: 2px solid rgba(64, 64, 64, 0.3);
+}
+
+.order-form-icon {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .order-form-textarea {
@@ -191,7 +209,7 @@
 .modal-order-submit-btn {
   display: block;
   margin-top: 4px;
-  width: 93px;
+  width: 109px;
   height: 41px;
   background: #fd9222;
   border-radius: 100px;
@@ -209,4 +227,58 @@
   cursor: pointer;
   color: rgba(253, 146, 34, 1);
   background-color: rgba(252, 241, 224, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .order-modal {
+    width: 609px;
+    height: 962px;
+    padding: 40px;
+  }
+  /* .order-form-title {
+  } */
+
+  .order-modal-img {
+    width: 120px;
+    height: 107px;
+  }
+
+  .order-list {
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+
+  .order-modal-item {
+    padding: 24px 20px;
+  }
+
+  .order-modal-item:not(:last-child) {
+    margin: 0;
+  }
+
+  .order-modal-item:last-child {
+    margin: 0;
+  }
+
+  .order-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .order-modal-item {
+    display: block;
+    width: 160px;
+    height: 196px;
+  }
+
+  .order-box {
+    margin: 14px 32px;
+  }
+
+  .order-contacts-form {
+    flex-direction: row;
+    /* width: 246px;
+    height: 66px; */
+    gap: 22px;
+  }
 }

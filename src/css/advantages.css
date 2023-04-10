@@ -7,11 +7,13 @@
 .advatages-list {
   padding-left: 10px;
   padding-bottom: 10px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 70px;
 }
 
 .section-advatages {
   padding: 0;
-  margin-top: 72px;
   background-color: var(--2nd-background-color);
 }
 .advatages-item {
@@ -76,7 +78,6 @@
   }
   .section-advatages {
     padding: 50px 0px 85px 0px;
-    margin-top: 50px;
   }
   .advatages-list {
     display: flex;
@@ -92,17 +93,18 @@
     max-width: 1200px;
 
     width: 100%;
-    padding-left: 15px;
+    padding-left: 50px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
   .section-advatages {
     padding: 50px 0px;
-    margin-top: 72px;
   }
   .advatages-list {
-    column-gap: 88px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 70px;
   }
   .advatages-item {
     margin: 0px;
