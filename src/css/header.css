@@ -263,6 +263,11 @@
     width: 32px;
     height: 32px;
   }
+
+  .header-logo-text:hover,
+  .header-logo-text:focus {
+    color: #fd9222;
+  }
 }
 
 /* ------Dekstop------- */
@@ -351,10 +356,5 @@
   .header-socials-link:focus,
   .header-socials-link:hover {
     fill: #fd9222;
-  }
-
-  .header-logo-text:hover,
-  .header-logo-text:focus {
-    color: #fd9222;
   }
 }
