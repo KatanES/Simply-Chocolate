@@ -65,9 +65,7 @@
 }
 
 .header-logo-text {
-  font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #111111;
@@ -157,10 +155,8 @@
 }
 
 .header-list-item-mobile-menu {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   display: flex;
   align-items: center;
@@ -333,7 +329,6 @@
   }
 
   .header-logo-text {
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
@@ -349,12 +344,9 @@
     fill: rgba(253, 146, 34, 1);
   }
   .header-list-item {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: -0.02em;
     color: #111111;
   }
 
