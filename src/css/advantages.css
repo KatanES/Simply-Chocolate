@@ -7,6 +7,9 @@
 .advatages-list {
   padding-left: 10px;
   padding-bottom: 10px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 70px;
 }
 
 .section-advatages {
