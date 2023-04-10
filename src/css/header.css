@@ -223,6 +223,7 @@
 
   .header-mobil-menu-social {
     margin-bottom: 24px;
+    margin-left: 32px;
   }
 
   .header-mobile-menu-socials-pic:focus,
@@ -267,6 +268,19 @@
   .header-logo-text:hover,
   .header-logo-text:focus {
     color: #fd9222;
+  }
+
+  .header-mobile-menu-close-bth {
+    width: 32px;
+    height: 32px;
+    top: 24px;
+    right: 32px;
+  }
+
+  .header-container-mobile-menu {
+    padding-left: 85px;
+    padding-top: 156px;
+    padding-right: 81px;
   }
 }
 
