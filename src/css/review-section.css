@@ -1,7 +1,6 @@
 /* ------------------- Review section ---------------------- */
 
 .review-section {
-    padding-top: 72px;
     padding-bottom: 72px;
     background-color: #FAFAFA;
 }
@@ -126,7 +125,6 @@
 @media screen and (min-width: 768px) {
 
     .review-section {
-        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -142,6 +140,7 @@
     .review-content {
         margin-top: 91px;
         min-height: 200px;
+        padding-bottom: 0px;
     }
 
     .review-item {
@@ -164,7 +163,6 @@
 @media screen and (min-width: 1200px) {
 
     .review-section {
-        padding-top: 128px;
         padding-bottom: 128px;
     }
 
