@@ -3,7 +3,7 @@
 .uniq-section {
   padding-top: 72px;
   padding-bottom: 72px;
-  background: #fff;
+  background: var(--primary-background-color);
 }
 
 .uniq-title {
@@ -87,6 +87,7 @@
 
 .uniq-card-item:nth-child(2n + 2) {
   background-color: #ffffff;
+  border: 1px solid #fd9222;
 }
 
 .uniq-card-item:nth-child(3n + 3) {

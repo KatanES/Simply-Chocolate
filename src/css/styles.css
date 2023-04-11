@@ -28,7 +28,7 @@
   letter-spacing: -0.02em;
 
   --primary-text-color: #111111;
-  --primary-background-color: #e2e2e2;
+  --primary-background-color: #fafafa;
   --2nd-background-color: #1e1823;
   --primary-accent-color: #fd9222;
 
@@ -43,6 +43,7 @@
 }
 
 body {
+  background-color: var(--primary-background-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.2;

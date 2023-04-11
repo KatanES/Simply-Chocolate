@@ -1,5 +1,5 @@
 .production {
-  background-color: #e2e2e2;
+  background-color: var(--primary-background-color);
 }
 
 .production-container {
@@ -79,7 +79,6 @@
     width: 375px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 72px;
     padding-bottom: 72px;
   }
 }

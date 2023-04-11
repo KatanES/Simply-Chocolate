@@ -22,7 +22,7 @@
     height: 364px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
-    background-color: #ffffff;
+    background-color: var(--primary-background-color);
     padding: 32px 0 32px;
     margin: 0 auto;
   }
