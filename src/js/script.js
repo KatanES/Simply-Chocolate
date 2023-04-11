@@ -13,20 +13,23 @@ const gallary = new Swiper('.gallary', {
   },
   loop: true,
   speed: 1000,
-    //   breakpoints: { 
-    //     320: {           
-    //        slidesPerView: 1, 
-    //        spaceBetween: 20,
-    //   },      
-    //     768: {          
-    //        slidesPerView: 2, 
-    //        spaceBetween: 20,
-    //   },        
-    //     1199: {           
-    //        slidesPerView: 3, 
-    //        spaceBetween: 20,
-    //     }, 
-    // },
+      breakpoints: {
+        1200: {
+           slidesPerGroup: 2,
+           slidesPerView: 3, 
+           spaceBetween: 20,
+        },
+        767: {
+           slidesPerGroup: 1,
+           slidesPerView: 2, 
+           spaceBetween: 20,
+        },
+        0: {
+           slidesPerGroup: 1, 
+           slidesPerView: 1, 
+           spaceBetween: 20,
+        }, 
+    },
 });
 
 

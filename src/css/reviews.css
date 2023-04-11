@@ -195,7 +195,7 @@
 
 .gallary {
   display: flex;
-  max-width: 1200px;
+  max-width: 1180px;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -251,8 +251,8 @@
 
 .position {
   margin: auto;
-  /* height: 242px;
-    width: 360px; */
+  max-height: 242px;
+    /*width: 360px; */
   position: absolute;
   display: inline-block;
   right: calc(50% - (80px / 2));
@@ -267,7 +267,7 @@
   }
 
   .card-list-item {
-    max-width: 335px;
+    /* max-width: 335px; */
     height: 202px;
     margin-bottom: 20px;
   }
@@ -277,7 +277,7 @@
   }
 
   .is-loved-section {
-    max-width: 375px;
+    /* max-width: 375px; */
     height: auto;
     
   }
@@ -308,7 +308,7 @@
     }
 
   .card-list-item {
-    max-width: 344px;
+    /* max-width: 344px; */
     height: 242px;
     margin-bottom: 32px;
   }
@@ -318,7 +318,7 @@
   }
 
   .is-loved-section {
-    max-width: 704px;
+    /* max-width: 704px; */
     height: auto;
     
   }
@@ -349,7 +349,7 @@
     }
 
   .card-list-item {
-    max-width: 360px;
+    /* max-width: 360px; */
     height: 242px;
     margin-bottom: 32px;
   }
@@ -359,7 +359,7 @@
   }
 
   .is-loved-section {
-    max-width: 1200px;
+    /* max-width: 1180px; */
     height: auto;    
   }
 
