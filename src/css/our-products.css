@@ -2,6 +2,7 @@
 @media screen and (min-width: 320px) {
   .container {
     max-width: 320px;
+    overflow: hidden;
   }
   .our-products {
     margin: 0 auto;
