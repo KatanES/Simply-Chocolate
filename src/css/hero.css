@@ -308,7 +308,6 @@ div {
 }
 
 .hero__button {
-  width: 120px;
   height: 41px;
   margin-bottom: 23px;
   padding: 12px 28px;
@@ -445,7 +444,6 @@ div {
   .hero__button {
     margin-bottom: 0;
     padding: 14px 40px;
-    width: 144px;
     height: 45px;
   }
 

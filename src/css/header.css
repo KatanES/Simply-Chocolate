@@ -65,9 +65,7 @@
 }
 
 .header-logo-text {
-  font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #111111;
@@ -157,10 +155,8 @@
 }
 
 .header-list-item-mobile-menu {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   display: flex;
   align-items: center;
@@ -223,6 +219,7 @@
 
   .header-mobil-menu-social {
     margin-bottom: 24px;
+    margin-left: 32px;
   }
 
   .header-mobile-menu-socials-pic:focus,
@@ -262,6 +259,24 @@
   .header-mobile-menu-button-icon {
     width: 32px;
     height: 32px;
+  }
+
+  .header-logo-text:hover,
+  .header-logo-text:focus {
+    color: #fd9222;
+  }
+
+  .header-mobile-menu-close-bth {
+    width: 32px;
+    height: 32px;
+    top: 24px;
+    right: 32px;
+  }
+
+  .header-container-mobile-menu {
+    padding-left: 85px;
+    padding-top: 156px;
+    padding-right: 81px;
   }
 }
 
@@ -314,7 +329,6 @@
   }
 
   .header-logo-text {
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
@@ -330,12 +344,9 @@
     fill: rgba(253, 146, 34, 1);
   }
   .header-list-item {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: -0.02em;
     color: #111111;
   }
 
