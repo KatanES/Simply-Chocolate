@@ -18,6 +18,7 @@ const swiper = new Swiper('.price-swiper', {
     disableOnIteration: false,
   },
   speed: 1000,
+  loop: true,
   breakpoints: {
     320: {
       slidesPerView: 1,
