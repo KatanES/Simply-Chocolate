@@ -8,15 +8,6 @@
     margin: 0 auto;
     padding-bottom: 72px;
   }
-  /* .our-products-list {
-    width: 335px;
-    height: 364px;
-    border: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 15px;
-    background-color: #ffffff;
-    padding: 32px 0 32px;
-    margin: 0 auto;
-  } */
   .slider-item {
     max-width: 335px;
     height: 364px;
@@ -28,9 +19,11 @@
   }
 
   .our-products-title {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 24px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -48,6 +41,7 @@
     margin: 0 auto;
   }
   .our-products-subtitle {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -59,6 +53,8 @@
     margin-bottom: 2px;
   }
   .our-products-text {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -68,14 +64,17 @@
     margin-bottom: 18px;
   }
   .box {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
     display: flex;
     flex-direction: row;
-    padding: 8px 20px;
+    padding: 8px 19px;
     gap: 14px;
-
     width: 94px;
     height: 33px;
-
     background: #fafafa;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
@@ -122,12 +121,6 @@
 
 /*--------------slider------------ */
 
-/* @import 'swiper/css/bundle'; */
-
-/* .slider-container {
-  width: 886px;
-} */
-
 .slider-pagination {
   display: flex;
   justify-content: center;
@@ -147,26 +140,4 @@
   height: 13px;
   border-radius: 50px;
   background-color: var(--primary-accent-color);
-}
-
-/* .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 0;
-} */
-
-/* ---------------media----------- */
-@media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .our-products-img {
-    background-image: url(../img/our-products/our-1-2x.jpg),
-      url(../img/our-products/our-2-2x.jpg),
-      url(../img/our-products/our-3-2x.jpg),
-      url(../img/our-products/our-4-2x.jpg),
-      url(../img/our-products/our-5-2x.jpg),
-      url(../img/our-products/our-6-2x.jpg),
-      url(../img/our-products/our-7-2x.jpg),
-      url(../img/our-products/our-8-2x.jpg);
-  }
 }
