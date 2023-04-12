@@ -19,7 +19,7 @@
   color: #111111;
 }
 
-.uniq-title > span {
+.uniq-title>span {
   color: rgba(253, 146, 34, 1);
 }
 
@@ -272,6 +272,10 @@
   .uniq-card-item:nth-child(4) {
     order: 2;
   }
+
+  .uniq-card-item:nth-child(4) .ucc-three-dots {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -280,12 +284,8 @@
     padding-bottom: 128px;
   }
 
-  .ucc-three {
-    display: none;
-  }
-
   .ucc-three-dots {
-    display: block;
+    display: inline;
   }
 
   .uniq-card {

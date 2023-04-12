@@ -12,10 +12,6 @@
   z-index: 100;
 }
 
-/* .order-list:not(:last-child) {
-  margin-bottom: 8px;
-} */
-
 .order-modal-item {
   display: flex;
   width: 263px;
@@ -31,6 +27,7 @@
 .order-modal-item:not(:last-child) {
   margin: 8px auto;
 }
+
 .order-modal-item:last-child {
   margin-bottom: 32px;
 }
@@ -85,10 +82,6 @@
   position: relative;
   display: flex;
 }
-
-/* .card {
-  position: relative;
-} */
 
 .btn-order-modal-close {
   display: flex;
@@ -198,20 +191,6 @@
   border-right: 2px solid rgba(64, 64, 64, 0.3);
 }
 
-/* .modal-order-icon-position::after {
-  content: '';
-  width: 25px;
-  height: 4px;
-  background: rgba(64, 64, 64, 0.3);
-  border-radius: 2px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: translateY(-50%);
-  top: 50%;
-  left: 18px;
-} */
-
 .order-form-icon {
   position: absolute;
   top: 50%;
@@ -222,15 +201,6 @@
 
   background: transparent;
 }
-
-/* .order-form-card .order-form-icon {
-  width: 32px;
-  height: 21px;
-  position: absolute;
-  left: 217px;
-  top: 50%;
-  transform: translateY(-50%);
-} */
 
 .order-form-textarea {
   height: 91px;
@@ -271,8 +241,6 @@
     height: 1058px;
     padding: 40px;
   }
-  /* .order-form-title {
-  } */
 
   .order-modal-img {
     width: 120px;
@@ -318,19 +286,8 @@
 
   .order-contacts-form {
     flex-direction: row;
-    /* width: 246px;
-    height: 66px; */
     gap: 22px;
   }
-
-  /* .modal-order-icon-position {
-    font-size: 18px;
-  } */
-
-  /* .modal-order-tel-icon {
-    width: 32px;
-    height: 32px;
-  } */
 
   .order-form-icon {
     left: 445px;
