@@ -13,7 +13,7 @@
 @import url('./production.css');
 @import url('./our-products.css');
 @import url('./top-sellers.css');
-@import url('./reviews.css');
+/* @import url('./reviews.css'); */
 @import url('./subscribe.css');
 @import url('./footer.css');
 @import url('./modal-buy-now.css');
@@ -85,7 +85,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1166px;
+    max-width: 1200px;
   }
 }
 
