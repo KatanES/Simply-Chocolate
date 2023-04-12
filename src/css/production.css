@@ -31,6 +31,7 @@
   height: 500px;
   margin-bottom: 40px;
   border-radius: 15px;
+  border: 0px;
 }
 
 .production-content {
@@ -49,7 +50,7 @@
   color: var(--primary-text-color);
 }
 
-.production-list > li::before {
+.production-list>li::before {
   content: '\a0\a0\a0';
   width: 8px;
   height: 8px;
@@ -99,6 +100,7 @@
     line-height: 28px;
     margin-bottom: 50px;
   }
+
   .production-video {
     height: 400px;
   }
@@ -111,6 +113,7 @@
     padding: 32px 102px 32px 32px;
   }
 }
+
 /************* TABLET *************/
 
 @media screen and (min-width: 1200px) {

@@ -8,6 +8,10 @@
   text-transform: uppercase;
 
   color: #ffffff;
+  width: 291px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .subscribe-container {
@@ -17,7 +21,6 @@
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  max-width: 356px;
 }
 
 .subscribe-explore {
@@ -43,6 +46,10 @@
   letter-spacing: -0.02em;
 
   color: #ffffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .subscribe-btn {
@@ -73,25 +80,22 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url('../img/Subscribe.img/Subcribe-mobil.jpg');
 }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .subscribe-section {
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
-      ),
+        rgba(0, 0, 0, 0.2)),
       url(../img/Subscribe.img/Subcribe-mobile-2x.jpg);
   }
+
   .subscribe-container {
     display: flex;
     flex-direction: column;
@@ -100,16 +104,11 @@
     padding: 0 15px;
     max-width: 497px;
   }
+
   .subscribe-explore {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
-  }
-
-  .subscribe-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
   }
 
   .subscribe-btn {
@@ -125,16 +124,9 @@
     color: #fd9222;
     background-color: #fcf1e0;
   }
-
-  .subscribe-modal {
-    max-width: 538px;
-    max-height: 462px;
-  }
-  .subscribe-photo-modal {
-    max-width: 568px;
-  }
 }
-@media screen and (min-width: 375px) and (max-width: 767px) {
+
+@media screen and (min-width: 375px) {
   .subscribe-section {
     padding-top: 72px;
     padding-bottom: 72px;
@@ -145,27 +137,27 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
-      ),
+        rgba(0, 0, 0, 0.2)),
       url('../img/Subscribe.img/Subcribe-tablet.jpg');
   }
 
+  .subscribe-text {
+    width: 326px;
+  }
+
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .subscribe-section {
-      background-image: linear-gradient(
-          0deg,
+      background-image: linear-gradient(0deg,
           rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)
-        ),
+          rgba(0, 0, 0, 0.2)),
         url(../img/Subscribe.img/Subcribe-tablet2x.jpg);
     }
-      }
   }
+}
 
 
 /* DESKTOP */
@@ -180,29 +172,25 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
-      ),
+        rgba(0, 0, 0, 0.2)),
       url('../img/Subscribe.img/Subcribe-desktop.jpg');
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .subscribe-section {
-      background-image: linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)
-        ),
-        url(../img/Subscribe.img/Subcribe-desktop2x.jpg);
-    }
+  .subscribe-text {
+    width: 467px;
   }
 
-  .subscribe-container {
-    max-width: 497px;
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: linear-gradient(0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)),
+        url(../img/Subscribe.img/Subcribe-desktop2x.jpg);
+    }
   }
 
   .subscribe-explore {
@@ -223,7 +211,6 @@
     line-height: 22px;
     width: 172px;
     height: 50px;
-
   }
 
   .subscribe-btn:hover,
