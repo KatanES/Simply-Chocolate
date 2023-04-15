@@ -147,3 +147,20 @@
   border-radius: 50px;
   background-color: var(--primary-accent-color);
 }
+
+.priceSwiper {
+  overflow: hidden;
+}
+
+.slider-item {
+  display: flex;
+}
+
+.our-block {
+  display: flex;
+  justify-content: center;
+}
+
+.our-li-block {
+  display: block;
+}

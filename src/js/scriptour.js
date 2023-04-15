@@ -1,6 +1,6 @@
 import Swiper from 'swiper/bundle';
 
-const swiper = new Swiper('.price-swiper', {
+const priceSwiper = new Swiper('.priceSwiper', {
   // Optional parameters
   pagination: {
     el: '.slider-pagination',
